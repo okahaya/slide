@@ -1,0 +1,103 @@
+\documentclass[final,dvipdfmx,aspectratio=169]{beamer}
+
+\mode<presentation> {
+  \usetheme{Marburg}
+}
+%ポスターテーマ色
+\definecolor{my-color}{RGB}{0,128,255} %青
+% \definecolor{my-color}{RGB}{120,100,210} %紫
+% \definecolor{my-color}{RGB}{80,200,220} %緑
+
+%\color{important}で枠とかを強調
+%\color{important_font}で文字を強調
+%\my-colorを緑として想定
+\definecolor{important}{RGB}{247,239,158} %薄い黄色
+\definecolor{important_font}{RGB}{255,0,0} %the 赤
+
+%block環境の背景色白orグレー
+\definecolor{back}{RGB}{255,255,255}
+% \definecolor{back}{RGB}{245,245,245}
+
+%select↓
+% \usecolortheme{orchid} %こっちはあるあるテンプレ
+\setbeamercolor{structure}{fg=my-color} %個性出したい人向け
+
+
+%背景色のmy-color 0.2 : white 0.8
+\setbeamercolor{background canvas}{bg=my-color!20}
+
+%サイドバーの色設定
+\setbeamertemplate{sidebar canvas right}[vertical shading][top=my-color!40!black,bottom=my-color!80!black] 
+
+\usepackage{bxdpx-beamer}
+\usepackage[japanese]{babel}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage{bm} 
+\usepackage{color}
+\usepackage{ascmac}
+\usepackage{optidef}
+\usepackage{subcaption}
+\usepackage{tcolorbox}
+\usepackage{pagecolor}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{xcolor}
+\tcbuselibrary{breakable, skins, theorems}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary {shapes.misc}
+\usetikzlibrary{positioning}
+
+\makeatletter
+\newlength{\chwidth}%
+\newcommand{\ulinej}[1]{%
+\@tfor\ch:=#1\do%a
+{\ch%
+  \settowidth{\chwidth}{\ch}%
+  \hspace{-\chwidth}%
+  \underline{\vphantom{あ}\phantom{\ch}}%
+}%
+}%
+\makeatother
+\newcommand{\coloruline}[2][black]{\textcolor{#1}{\ulinej{#2}}}
+
+\mathversion{bold}
+\usefonttheme{professionalfonts}
+\usefonttheme[onlymath]{serif}
+% フォントファミリー設定
+% 英文をサンセリフ体に
+\renewcommand{\familydefault}{\sfdefault}
+% 日本語をゴシック体に
+\renewcommand{\kanjifamilydefault}{\gtdefault}
+
+\captionsetup[figure]{name=図}
+\captionsetup[table]{name=表}
+\setbeamertemplate{caption}[numbered] % 図や表のキャプションに図1，図2，図3．．．などをつける
+
+\graphicspath{{img/}}
+
+\setbeamertemplate{navigation symbols}{}   % ナビゲーションバーを表示しません
+
+\setbeamerfont{caption}{size=\normalsize}
+\setbeamerfont{block title}{size=\LARGE}
+\setbeamerfont*{itemize/enumerate body}{size=\large}
+\setbeamerfont*{itemize/enumerate subbody}{parent=itemize/enumerate body, size=\large}
+\setbeamerfont*{itemize/enumerate subsubbody}{parent=itemize/enumerate subbody, size=\large}
+
+% \setbeamercolor{palette secondary}{bg=my-color}
+% \setbeamercolor{palette tertiary}{bg=my-color}
+\setbeamercolor{frametitle}{fg=white,bg=my-color!40!black}
+
+\setbeamercolor{block body}{bg=back}
+\setbeamercolor{bibliography entry author}{fg=black}
+\setbeamercolor{bibliography entry journal}{fg=black}
+\setbeamercolor{bibliography entry note}{fg=black}
+\setbeamercolor{bibliography entry publisher}{fg=black}
+
+
+
+
+\beamertemplatetextbibitems
+\begin{document}
+\input{slide_template.tex}
+\end{document}
