@@ -64,10 +64,7 @@
 \mathversion{bold}
 \usefonttheme{professionalfonts}
 \usefonttheme[onlymath]{serif}
-% フォントファミリー設定
-% 英文をサンセリフ体に
 \renewcommand{\familydefault}{\sfdefault}
-% 日本語をゴシック体に
 \renewcommand{\kanjifamilydefault}{\gtdefault}
 
 \captionsetup[figure]{name=図}
@@ -81,8 +78,8 @@
 \setbeamerfont{caption}{size=\normalsize}
 \setbeamerfont{block title}{size=\LARGE}
 \setbeamerfont*{itemize/enumerate body}{size=\large}
-\setbeamerfont*{itemize/enumerate subbody}{parent=itemize/enumerate body, size=\large}
-\setbeamerfont*{itemize/enumerate subsubbody}{parent=itemize/enumerate subbody, size=\large}
+\setbeamerfont*{itemize/enumerate subbody}{parent=itemize/enumerate body, size=\normalsize}
+\setbeamerfont*{itemize/enumerate subsubbody}{parent=itemize/enumerate subbody, size=\normalsize}
 
 % \setbeamercolor{palette secondary}{bg=my-color}
 % \setbeamercolor{palette tertiary}{bg=my-color}

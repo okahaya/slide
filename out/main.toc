@@ -1,3 +1,5 @@
 \babel@toc {japanese}{}\relax 
-\beamer@sectionintoc {1}{Section1}{2}{0}{1}
-\beamer@sectionintoc {2}{参考文献}{3}{0}{2}
+\beamer@sectionintoc {1}{自己紹介}{3}{0}{1}
+\beamer@sectionintoc {2}{前提}{4}{0}{2}
+\beamer@sectionintoc {3}{背景}{8}{0}{3}
+\beamer@sectionintoc {4}{参考文献}{9}{0}{4}

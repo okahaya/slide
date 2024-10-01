@@ -1,25 +1,104 @@
-\title[title for sidebar]{\color{black} \LARGE Title}
-\author[name1 \and name2]{name1 \and name2}
-\institute[institute]{institute}
+\title[Swaq]{\color{black} \LARGE SWAQ}
+\subtitle[ちょっと強いQAS]{特定の問題にちょっと強くなった量子アニーリングシミュレーター}
+\author[岡田颯斗]{岡田颯斗}
+% \institute[大阪府立四條畷高等学校]{大阪府立四條畷高等学校}
 \date{}
 \begin{frame}{}
 \titlepage
 \end{frame}
-\normalsize
+\large
 
-\section{Section1}
-\begin{frame}[t]{Section1}
-    content
+\begin{frame}
+  \frametitle{目次}
+  \tableofcontents
 \end{frame}
 
 %add here
+
+\section{自己紹介}
+\begin{frame}
+  \frametitle{自己紹介}
+  \begin{itemize}
+      \item 名前：岡田颯斗（高校3年生）
+      \item 趣味・興味：
+      \begin{itemize}
+          \item 競技数学
+          \item 量子コンピュータ
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\section{前提}
+\begin{frame}
+  \frametitle{前提}
+
+  {\Large  量子アニーリングは組合せ最適化問題を解く手段の一つ}
+  \vspace{5mm}
+
+  \begin{columns}
+    \begin{column}{0.45\textwidth}
+      \textbf{彩色問題}
+      \begin{itemize}
+          \item 隣り合う場所は異なる色で塗分ける
+      \end{itemize}
+    \end{column}
+
+    \begin{column}{0.45\textwidth}
+      \textbf{巡回セールスマン問題}
+      \begin{itemize}
+          \item 複数の街を最短経路ですべて訪れる
+      \end{itemize}
+    \end{column}
+  \end{columns}
+  \vspace{5mm}
+\end{frame}
+
+\begin{frame}
+  \frametitle{デモ}
+  %動画のリンクへ飛ぶorローカルで流す
+  彩色問題：リンク\\
+  % 巡回セールスマン：リンク %デモが動き次第コメントアウトを解除
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{続：前提}
+
+  {\Large  量子アニーリングは組合せ最適化問題を解く手段の一つ}
+  \vspace{5mm}
+
+  \begin{columns}
+    \begin{column}{0.45\textwidth}
+      \textbf{彩色問題}
+      \begin{itemize}
+          \item 隣り合う場所は異なる色で塗分ける
+      \end{itemize}
+    \end{column}
+
+    \begin{column}{0.45\textwidth}
+      \textbf{巡回セールスマン問題}
+      \begin{itemize}
+          \item 複数の街を最短経路ですべて訪れる
+      \end{itemize}
+    \end{column}
+  \end{columns}
+  \vspace{10mm}
+  しかし、量子アニーリングは最適化問題を効率よく解けるかというと... \pause
+\end{frame}
+
+\section{背景}
+\begin{frame}
+  \frametitle{背景}
+  {\Large 量子アニーリングはm個の中からn個選ぶのが苦手}
+
+\end{frame}
 
 \section{参考文献}
 \begin{frame}[t]{参考文献}
   \footnotesize
 
   \bibliographystyle{junsrt}
-  \bibliography{biblio.tex}
+  \bibliography{bibliography.tex}
 \end{frame}
 
 
