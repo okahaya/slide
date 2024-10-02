@@ -83,13 +83,56 @@
     \end{column}
   \end{columns}
   \vspace{10mm}
-  しかし、量子アニーリングは最適化問題を効率よく解けるかというと... \pause
+  \pause{しかし、量子アニーリングは最適化問題を効率よく解けるかというと...}
 \end{frame}
 
 \section{背景}
 \begin{frame}
   \frametitle{背景}
-  {\Large 量子アニーリングはm個の中からn個選ぶのが苦手}
+  {\Large 量子アニーリングはm個の中からn個選ぶのが苦手}\\
+  \vspace{5mm}
+  なぜなら...\\
+  \begin{itemize}
+    \item 制約はペナルティ項として目的関数につけられる
+    \item すると問題が非本質な方向へ最適化される
+  \end{itemize}
+
+  \vspace{5mm}
+  
+  \only<1-2>{
+  \begin{equation*}
+    {H_{problem} = H_{object}} \only<2>{\color{important_font}+ H_{penalty}}
+  \end{equation*}
+  }
+
+  \centering \only<1>{$H_{object}$を最適化} \only<2>{$H_{problem}+H_{penalty}$を最適化}
+
+  \only<3>{\[
+    \begin{aligned}
+        &\text{minimize} \quad H_{object} \\
+        &\text{subject to} \quad H_{constraint} = c
+    \end{aligned}
+  \]}
+
+  \only<4>{\[
+    \begin{aligned}
+        &\text{minimize} \quad H_{object} + \underbrace{(H_{constraint} - c)^2}_{H_{penalty}} \\
+    \end{aligned}
+  \]}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{背景}
+  hogehoge
+  %グラフ彩色問題での実験結果を載せる
+  %onehotありなし
+\end{frame}
+
+\section{手法}
+\begin{frame}
+  \frametitle{手法}
+  {\Large 制約を常に満たすように解を遷移させる-Swap Based}
 
 \end{frame}
 
@@ -98,7 +141,7 @@
   \footnotesize
 
   \bibliographystyle{junsrt}
-  \bibliography{bibliography.tex}
+  \bibliography{bibliography.bib}
 \end{frame}
 
 

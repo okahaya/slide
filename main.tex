@@ -48,6 +48,12 @@
 \usetikzlibrary {shapes.misc}
 \usetikzlibrary{positioning}
 
+%しおりの文字化け対策
+\usepackage{pxjahyper}
+\usepackage{atbegshi}
+\ifnum 42146=\euc"A4A2 \AtBeginShipoutFirst{\special{pdf:tounicode EUC-UCS2}}\else
+\AtBeginShipoutFirst{\special{pdf:tounicode 90ms-RKSJ-UCS2}}\fi
+
 \makeatletter
 \newlength{\chwidth}%
 \newcommand{\ulinej}[1]{%
@@ -70,6 +76,7 @@
 \captionsetup[figure]{name=図}
 \captionsetup[table]{name=表}
 \setbeamertemplate{caption}[numbered] % 図や表のキャプションに図1，図2，図3．．．などをつける
+\setbeamertemplate{footline}[frame number]
 
 \graphicspath{{img/}}
 
@@ -91,8 +98,10 @@
 \setbeamercolor{bibliography entry note}{fg=black}
 \setbeamercolor{bibliography entry publisher}{fg=black}
 
-
-
+%セクションの始まりスライド
+% \AtBeginSection[]{
+%     \frame{\tableofcontents[currentsection, hideallsubsections]} %目次スライド
+% }
 
 \beamertemplatetextbibitems
 \begin{document}

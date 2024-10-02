@@ -2,4 +2,5 @@
 \beamer@sectionintoc {1}{自己紹介}{3}{0}{1}
 \beamer@sectionintoc {2}{前提}{4}{0}{2}
 \beamer@sectionintoc {3}{背景}{8}{0}{3}
-\beamer@sectionintoc {4}{参考文献}{9}{0}{4}
+\beamer@sectionintoc {4}{手法}{13}{0}{4}
+\beamer@sectionintoc {5}{参考文献}{14}{0}{5}
