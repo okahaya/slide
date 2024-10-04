@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  2 OCT 2024 19:39
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  4 OCT 2024 20:10
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -813,28 +813,28 @@ Package pxjahyper Info: The setup for hyperref 'unicode' is applied.
 (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (out/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
 * driver: dvipdfm
@@ -868,7 +868,7 @@ LaTeX Font Info:    ... okay on input line 107.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 107.
+Package hyperref Info: Link coloring OFF on input line 108.
 (out/main.out) (out/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -944,6 +944,22 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
 
 ]
 
+LaTeX Font Warning: Command \large invalid in math mode on input line 164.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 164.
+
+
+Overfull \hbox (6.12349pt too wide) detected at line 164
+[][]
+ []
+
+
+Overfull \vbox (11.80235pt too high) detected at line 164
+ []
+
+
+
 [10
 
 ]
@@ -954,17 +970,13 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
 
 [12
 
-]
-
-[13
-
 ] (out/main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[14
+[13
 
 ])
 \tf@nav=\write6
@@ -977,11 +989,11 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 \openout8 = `main.snm'.
 
 
-Package caption Warning: Unused \captionsetup[figure] on input line 76.
+Package caption Warning: Unused \captionsetup[figure] on input line 77.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 77.
+Package caption Warning: Unused \captionsetup[table] on input line 78.
 See the caption package documentation for explanation.
 
 (out/main.aux)
@@ -991,15 +1003,15 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C1EA364A92EBB7D5F387B08DF221537E;381.
+(rerunfilecheck)             Checksum: 061AC1537B12B4EEC6E45E3610662ED1;463.
  ) 
 Here is how much of TeX's memory you used:
- 33231 strings out of 475691
- 686913 string characters out of 5779901
- 1928753 words of memory out of 5000000
- 55368 multiletter control sequences out of 15000+600000
- 609343 words of font info for 109 fonts, out of 8000000 for 9000
+ 33305 strings out of 475691
+ 688620 string characters out of 5779901
+ 1941753 words of memory out of 5000000
+ 55433 multiletter control sequences out of 15000+600000
+ 612758 words of font info for 122 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 101i,15n,107p,6639b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,16n,107p,6639b,889s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.dvi (14 pages, 54428 bytes).
+Output written on out/main.dvi (13 pages, 57704 bytes).

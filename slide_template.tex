@@ -98,28 +98,69 @@
   \end{itemize}
 
   \vspace{5mm}
-  
-  \only<1-2>{
-  \begin{equation*}
-    {H_{problem} = H_{object}} \only<2>{\color{important_font}+ H_{penalty}}
-  \end{equation*}
-  }
 
-  \centering \only<1>{$H_{object}$を最適化} \only<2>{$H_{problem}+H_{penalty}$を最適化}
-
-  \only<3>{\[
+  \only<1>{\[
     \begin{aligned}
         &\text{minimize} \quad H_{object} \\
         &\text{subject to} \quad H_{constraint} = c
     \end{aligned}
   \]}
 
-  \only<4>{\[
+  \only<2>{\[
     \begin{aligned}
         &\text{minimize} \quad H_{object} + \underbrace{(H_{constraint} - c)^2}_{H_{penalty}} \\
     \end{aligned}
   \]}
 
+\end{frame}
+
+\subsection{問題例}
+\begin{frame}
+  \frametitle{例}
+    \begin{columns}[T]
+      \begin{column}{0.48\textwidth}
+        \begin{block}{\large 彩色問題}
+        \footnotesize{
+        \[
+          \begin{aligned}
+              &\text{minimize} \quad \sum_{i,j\in Adj}\sum_{k\in color}q_{i,k}q_{j,k} \\
+              &\text{subject to} \quad \sum_{i\in vertics}q_{i,k} = 1 
+          \end{aligned}
+        \]\\
+        \begin{center}
+          ${\large \downarrow}$
+        \end{center}
+        \[
+          \begin{aligned}
+              \text{minimize} \quad \sum_{i,j\in Adj}\sum_{k\in color}q_{i,k}q_{j,k}\\
+               + \sum_{k\in color}(\sum_{i,j\in Adj}-1)^2\\
+          \end{aligned}
+        \]}
+        \end{block}
+      \end{column}  
+
+      \begin{column}{0.48\textwidth}
+        \begin{block}{\large 巡回セールスマン問題}
+        \footnotesize{
+        \[
+          \begin{aligned}
+              &\text{minimize} \quad  & & \sum_{i,j\in C}\sum_{k = 0}^n w_{i,j}q_{i,k}q_{j,k+1} \\
+              &\text{subject to} \quad& & \sum_{i\in C}q_{i,k} = 1 \\
+              &                       & & \sum_{k = 0}^n q_{i,k} = 1
+          \end{aligned}
+        \]\\
+        \begin{center}
+          ${\large \downarrow}$
+        \end{center}
+        \[
+          \begin{aligned}
+              &\text{minimize} \quad \sum_{i,j\in C}\sum_{k = 0}^n w_{i,j}q_{i,k}q_{j,k+1}\\
+               &+ \sum_{k=0}^n(\sum_{i\in C}q_{i,k}-1)^2+\sum_{i\in C}(\sum_{k=0}^nq_{i,k}-1)^2\\
+          \end{aligned}
+        \]}
+        \end{block}
+      \end{column}  
+    \end{columns}
 \end{frame}
 
 \begin{frame}

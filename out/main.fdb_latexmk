@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex out/main"] 1727865568.46952 "out/main.aux" "out/main.bbl" "out/main" 1727865577.10863 0
+["bibtex out/main"] 1728039301.76423 "out/main.aux" "out/main.bbl" "out/main" 1728040248.10172 0
   "./bibliography.bib" 1722654576 0 d41d8cd98f00b204e9800998ecf8427e ""
   "junsrt.bst" 0 -1 0 ""
-  "out/main.aux" 1727865574 3506 59c60285f272deb43f63b7b0784cfe7f "latex"
+  "out/main.aux" 1728040245 3908 31c76ff7fcd54a99745660acb7e1dbf8 "latex"
   (generated)
   "out/main.bbl"
   "out/main.blg"
   (rewritten before read)
-["dvipdf"] 1727865576.19665 "out/main.dvi" "out/main.pdf" "out/main" 1727865577.1454 0
-  "out/main.dvi" 1727865574 54428 d2dd25877473b05e1b70093232b28e23 "latex"
+["dvipdf"] 1728040247.1251 "out/main.dvi" "out/main.pdf" "out/main" 1728040248.12573 0
+  "out/main.dvi" 1728040245 57704 4b71cc9a651cfcbff736709ad42bd35d "latex"
   (generated)
   "out/main.pdf"
   (rewritten before read)
-["latex"] 1727865569.212 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1727865577.10964 0
-  "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" 1727863361 3405 dcbff515ad6f5ba37544839151024303 ""
+["latex"] 1728040240.2226 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1728040248.10264 0
+  "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" 1728038875 3453 19e6c88f3efbe5d22944ee71b807c137 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1719547251 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth6.tfm" 1719547251 1196 977af188465e721f1f65facb66282510 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth8.tfm" 1719547251 1196 f76ab7ae43ed1dfe29b9e6ec2933fdb4 ""
@@ -24,15 +24,22 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth8.tfm" 1719547251 856 8bfd9428b6290f70fd02322c8acb67da ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth9.tfm" 1719547251 856 bed293689e159275e10c27a9927115b7 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm" 1719547251 856 39c171483fe1bb7d0e1368980c0c205b ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1719541604 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1719541604 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1719541604 1120 200be8b775682cdf80acad4be5ef57e4 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm" 1719541604 1112 cbc11b646ccc26599775160605aaee3a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1719541604 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1719541604 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1719541604 996 a18840b13b499c08ac2de96a99eda4bc ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm" 1719541604 1496 c79f6914c6d39ffb3759967363d1be79 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm" 1719541604 1516 a3bf6a5e7ec4401b1f52092dfaaed242 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm" 1719541604 1528 dab402b9d3774ca98baa037071cee7ae ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm" 1719541604 1528 159d57adcba064aab4277245c826577d ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1719541604 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1719541604 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1719541604 928 2dc8d444221b7a635bb58038579b861a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1719541604 908 2921f8a10601f252058503cc6570e581 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1719541604 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1719541604 940 228d6584342e91276bf566bcf9716b83 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/ascmac/ascgrp.tfm" 1719541694 448 9a1f3a95c3a7e2681aa6eefcf410b7ac ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/bxjatoucs/bxjatoucs-cid.tfm" 1719542286 92388 7031e5a1936cb30180e7c99464bb574a ""
@@ -40,8 +47,10 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm" 1719542524 1116 4e6ba9d7914baa6482fd69f67d126380 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1719542524 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1719542524 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm" 1719542524 1332 f817c21a1ba54560425663374f1b651a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm" 1719542524 1344 8a0be4fe4d376203000810ad4dc81558 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1719542524 1332 1fde11373e221473104d6cc5993f046e ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1719542524 1328 5442e22a7072966dbaf88ca900acf3f0 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1719542524 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm" 1719542524 1524 554068197b70979a55370e6c6495f441 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1719542524 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -269,13 +278,13 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1719541440 42000 d4442d41499783a67244425458021966 ""
   "c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1719550537 6917418 026518a9c5f626f71060e3dad0a8f531 ""
   "c:/texlive/2024/texmf.cnf" 1719550448 713 e69b156964470283e0530f5060668171 ""
-  "main.tex" 1727863361 3405 dcbff515ad6f5ba37544839151024303 ""
-  "out/main.aux" 1727865574 3506 59c60285f272deb43f63b7b0784cfe7f "latex"
-  "out/main.bbl" 1727865569 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
-  "out/main.nav" 1727865574 1872 c552e0de9125ef18551b8cd8f3e21f5c "latex"
-  "out/main.out" 1727865574 381 c1ea364a92ebb7d5f387b08df221537e "latex"
-  "out/main.toc" 1727865574 255 b91018036891e9018ad5dfe6e8fa13fe "latex"
-  "slide_template.tex" 1727865559 3627 05962c555bd5782faf9f720ce81fa4b1 ""
+  "main.tex" 1728038875 3453 19e6c88f3efbe5d22944ee71b807c137 ""
+  "out/main.aux" 1728040245 3908 31c76ff7fcd54a99745660acb7e1dbf8 "latex"
+  "out/main.bbl" 1728039302 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
+  "out/main.nav" 1728040245 2091 79deaa4312556b8d25038de9988b66cc "latex"
+  "out/main.out" 1728040245 463 061ac1537b12b4eec6e45e3610662ed1 "latex"
+  "out/main.toc" 1728040245 307 6a4319f56ca4eb6db70029ebe66d6d49 "latex"
+  "slide_template.tex" 1728040238 4993 43d8c0adb13476562b678448a58a1999 ""
   (generated)
   "out/main.aux"
   "out/main.dvi"
