@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  5 OCT 2024 21:29
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  5 OCT 2024 22:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -533,21 +533,117 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen309
 \beamer@dimb=\dimen310
-) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerthemeMarburg.sty (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
-\beamer@sidebarwidth=\dimen311
-\beamer@headheight=\dimen312
+) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (c:/texlive/2024/texmf-dist/tex/latex/beamertheme-metropolis/beamerthememetropolis.sty
+
+LaTeX Warning: You have requested package `beamerthemeMetropolis',
+               but the package provides `beamerthememetropolis'.
+
+Package: beamerthememetropolis 2017/01/23 v1.2 Metropolis Beamer theme
+(c:/texlive/2024/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks47
+\pgfopts@list@add@b@toks=\toks48
+) (c:/texlive/2024/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememetropolis.sty
+Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
+(c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count345
+\calc@Bcount=\count346
+\calc@Adimen=\dimen311
+\calc@Bdimen=\dimen312
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count347
+\calc@Cskip=\skip68
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box95
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen313
+\pgf@nodesepend=\dimen314
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen315
+\pgffor@skip=\dimen316
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count348
+\pgfplotmarksize=\dimen317
+)
+\tikz@lastx=\dimen318
+\tikz@lasty=\dimen319
+\tikz@lastxsaved=\dimen320
+\tikz@lastysaved=\dimen321
+\tikz@lastmovetox=\dimen322
+\tikz@lastmovetoy=\dimen323
+\tikzleveldistance=\dimen324
+\tikzsiblingdistance=\dimen325
+\tikz@figbox=\box96
+\tikz@figbox@bg=\box97
+\tikz@tempbox=\box98
+\tikz@tempbox@bg=\box99
+\tikztreelevel=\count349
+\tikznumberofchildren=\count350
+\tikznumberofcurrentchild=\count351
+\tikz@fig@count=\count352
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count353
+\pgfmatrixcurrentcolumn=\count354
+\pgf@matrix@numberofcolumns=\count355
+)
+\tikz@expandcount=\count356
+(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+\metropolis@titleseparator@linewidth=\skip69
+\metropolis@progressonsectionpage=\skip70
+\metropolis@progressonsectionpage@linewidth=\skip71
+\metropolis@blocksep=\skip72
+\metropolis@blockadjust=\skip73
+\metropolis@parskip=\skip74
+) (c:/texlive/2024/texmf-dist/tex/latex/beamertheme-metropolis/beamerouterthememetropolis.sty
+Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
+\metropolis@frametitle@padding=\skip75
+\metropolis@progressinheadfoot=\skip76
+\metropolis@progressinheadfoot@linewidth=\skip77
+) (c:/texlive/2024/texmf-dist/tex/latex/beamertheme-metropolis/beamercolorthememetropolis.sty
+Package: beamercolorthememetropolis 2017/01/23 Metropolis color theme
+) (c:/texlive/2024/texmf-dist/tex/latex/beamertheme-metropolis/beamerfontthememetropolis.sty
+Package: beamerfontthememetropolis 2017/01/23 Metropolis font theme
+(c:/texlive/2024/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+
+Package beamerthememetropolis Warning: You need to compile with XeLaTeX or LuaLaTeX to use the Fira fonts on input line 95.
+
 )) (c:/texlive/2024/texmf-dist/tex/latex/bxdpx-beamer/bxdpx-beamer.sty
 Package: bxdpx-beamer 2016/08/06 v0.3
-\bxqbd@ghost=\box95
+\bxqbd@ghost=\box100
 ) (c:/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/06/02 v24.6 The Babel package
-\babel@savecnt=\count345
-\U@D=\dimen313
+\babel@savecnt=\count357
+\U@D=\dimen326
 \l@unhyphenated=\language7
 (c:/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 3930.
-\bbl@dirlevel=\count346
+\bbl@dirlevel=\count358
 (c:/texlive/2024/texmf-dist/tex/generic/babel-japanese/japanese.ldf
 Language: japanese 2021/02/13 v3.1 Japanese support for babel (texjporg)
 Package babel Info: No hyphenation patterns are available for Japanese,
@@ -562,75 +658,24 @@ Package babel Info: Importing font and identification data for japanese
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen314
-\captionmargin=\dimen315
-\caption@leftmargin=\dimen316
-\caption@rightmargin=\dimen317
-\caption@width=\dimen318
-\caption@indent=\dimen319
-\caption@parindent=\dimen320
-\caption@hangindent=\dimen321
+\caption@tempdima=\dimen327
+\captionmargin=\dimen328
+\caption@leftmargin=\dimen329
+\caption@rightmargin=\dimen330
+\caption@width=\dimen331
+\caption@indent=\dimen332
+\caption@parindent=\dimen333
+\caption@hangindent=\dimen334
 Package caption Info: beamer document class detected.
 (c:/texlive/2024/texmf-dist/tex/latex/caption/caption-beamer.sto
 File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the beamer document classes (AR)
 ))
-\c@caption@flags=\count347
-\c@continuedfloat=\count348
+\c@caption@flags=\count359
+\c@continuedfloat=\count360
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
-) (c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box96
-) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen322
-\pgf@nodesepend=\dimen323
-) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen324
-\pgffor@skip=\dimen325
-\pgffor@stack=\toks47
-\pgffor@toks=\toks48
-)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2023-01-15 v3.1.10 (3.1.10)
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count349
-\pgfplotmarksize=\dimen326
-)
-\tikz@lastx=\dimen327
-\tikz@lasty=\dimen328
-\tikz@lastxsaved=\dimen329
-\tikz@lastysaved=\dimen330
-\tikz@lastmovetox=\dimen331
-\tikz@lastmovetoy=\dimen332
-\tikzleveldistance=\dimen333
-\tikzsiblingdistance=\dimen334
-\tikz@figbox=\box97
-\tikz@figbox@bg=\box98
-\tikz@tempbox=\box99
-\tikz@tempbox@bg=\box100
-\tikztreelevel=\count350
-\tikznumberofchildren=\count351
-\tikznumberofcurrentchild=\count352
-\tikz@fig@count=\count353
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count354
-\pgfmatrixcurrentcolumn=\count355
-\pgf@matrix@numberofcolumns=\count356
-)
-\tikz@expandcount=\count357
-(c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2024/texmf-dist/tex/latex/tools/bm.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -654,11 +699,11 @@ Package: tascmac 2020/01/15 v2.1 ascmac package (community edition)
 \ascmac@hoboxa=\box105
 \ascmac@hoboxb=\box106
 \@itemh=\dimen339
-\@iboxpos=\toks49
+\@iboxpos=\toks51
 \@iboxstr=\box107
 \@bwsp=\box108
 \@@bwsp=\box109
-\@bcal=\count358
+\@bcal=\count361
 \shaderule=\dimen340
 )) (c:/texlive/2024/texmf-dist/tex/latex/optidef/optidef.sty
 Package: optidef 2019/04/23 - version=3.1, Package for defining optimization problems
@@ -668,32 +713,20 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )) (c:/texlive/2024/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
-(c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count359
-\calc@Bcount=\count360
-\calc@Adimen=\dimen341
-\calc@Bdimen=\dimen342
-\calc@Askip=\skip66
-\calc@Bskip=\skip67
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count361
-\calc@Cskip=\skip68
-) (c:/texlive/2024/texmf-dist/tex/latex/mathtools/mhsetup.sty
+(c:/texlive/2024/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count362
-\l_MT_multwidth_dim=\dimen343
-\origjot=\skip69
-\l_MT_shortvdotswithinadjustabove_dim=\dimen344
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen345
-\l_MT_above_intertext_sep=\dimen346
-\l_MT_below_intertext_sep=\dimen347
-\l_MT_above_shortintertext_sep=\dimen348
-\l_MT_below_shortintertext_sep=\dimen349
+\l_MT_multwidth_dim=\dimen341
+\origjot=\skip78
+\l_MT_shortvdotswithinadjustabove_dim=\dimen342
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen343
+\l_MT_above_intertext_sep=\dimen344
+\l_MT_below_intertext_sep=\dimen345
+\l_MT_above_shortintertext_sep=\dimen346
+\l_MT_below_shortintertext_sep=\dimen347
 \xmathstrut@box=\box110
-\xmathstrut@dim=\dimen350
+\xmathstrut@dim=\dimen348
 ) (c:/texlive/2024/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
@@ -711,7 +744,7 @@ File: l3backend-dvipdfmx.def 2024-05-08 L3 backend support: dvipdfmx
 ))
 Package: xparse 2024-05-08 L3 Experimental document command parser
 )
-\widthInit=\skip70
+\widthInit=\skip79
 ) (c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
@@ -722,8 +755,8 @@ Package caption Info: New subtype `subtable' on input line 238.
 Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
 (c:/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks50
-\verbatim@line=\toks51
+\every@verbatim=\toks52
+\verbatim@line=\toks53
 \verbatim@in@stream=\read4
 )
 \tcb@titlebox=\box112
@@ -734,7 +767,7 @@ Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \c@tcblayer=\count369
 \c@tcolorbox@number=\count370
 \l__tcobox_tmpa_box=\box116
-\l__tcobox_tmpa_dim=\dimen351
+\l__tcobox_tmpa_dim=\dimen349
 \tcb@temp=\box117
 \tcb@temp=\box118
 \tcb@temp=\box119
@@ -749,16 +782,16 @@ LaTeX Warning: Package "xcolor" has already been loaded: ignoring load-time
 Package: colortbl 2024/05/26 v1.0h Color table columns (DPC)
 (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
-\col@sep=\dimen352
+\col@sep=\dimen350
 \ar@mcellbox=\box121
-\extrarowheight=\dimen353
-\NC@list=\toks52
-\extratabsurround=\skip71
-\backup@length=\skip72
+\extrarowheight=\dimen351
+\NC@list=\toks54
+\extratabsurround=\skip80
+\backup@length=\skip81
 \ar@cellbox=\box122
 )
-\everycr=\toks53
-\minrowclearance=\skip73
+\everycr=\toks55
+\minrowclearance=\skip82
 \rownum=\count371
 )
 
@@ -809,32 +842,32 @@ File: pxjahyper-uni.def 2023/03/01 v1.3
 )
 Package pxjahyper Info: The setup for hyperref 'unicode' is applied.
 )
-\chwidth=\skip74
+\chwidth=\skip83
 (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (out/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 110.
+LaTeX Font Info:    ... okay on input line 110.
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
 * driver: dvipdfm
@@ -842,14 +875,14 @@ LaTeX Font Info:    ... okay on input line 108.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(14.22636pt, 369.88585pt, 71.13187pt)
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
 * \paperwidth=455.24408pt
 * \paperheight=256.0748pt
-* \textwidth=369.88585pt
+* \textwidth=398.3386pt
 * \textheight=227.62207pt
-* \oddsidemargin=-58.04362pt
-* \evensidemargin=-58.04362pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -868,7 +901,7 @@ LaTeX Font Info:    ... okay on input line 108.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 108.
+Package hyperref Info: Link coloring OFF on input line 110.
 (out/main.out) (out/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -893,6 +926,18 @@ Package caption Info: End \AtBeginDocument code.
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 3.
 
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 8.
+
+Overfull \vbox (32.96484pt too high) detected at line 8
+ []
+
 
 
 [1
@@ -902,11 +947,11 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -914,11 +959,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [3
 
 ]
-LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
-LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
-
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 29.
+(c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
 
 [4
 
@@ -927,6 +971,11 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
 [5
 
 ]
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
+
 
 [6
 
@@ -944,17 +993,6 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
 
 ]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 168.
-
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 168.
-
-
-Overfull \vbox (3.33812pt too high) detected at line 168
- []
-
-
-
 [10
 
 ]
@@ -967,6 +1005,17 @@ Overfull \vbox (3.33812pt too high) detected at line 168
 
 ]
 
+LaTeX Font Warning: Command \large invalid in math mode on input line 168.
+
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 168.
+
+
+Overfull \vbox (7.62927pt too high) detected at line 168
+ []
+
+
+
 [13
 
 ]
@@ -977,13 +1026,41 @@ Overfull \vbox (3.33812pt too high) detected at line 168
 
 [15
 
+]
+
+[16
+
+]
+
+[17
+
+]
+
+[18
+
+]
+
+[19
+
+]
+
+[20
+
+]
+
+[21
+
+]
+
+[22
+
 ] (out/main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[16
+[23
 
 ])
 \tf@nav=\write6
@@ -996,11 +1073,11 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 \openout8 = `main.snm'.
 
 
-Package caption Warning: Unused \captionsetup[figure] on input line 77.
+Package caption Warning: Unused \captionsetup[figure] on input line 74.
 See the caption package documentation for explanation.
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 78.
+Package caption Warning: Unused \captionsetup[table] on input line 75.
 See the caption package documentation for explanation.
 
 (out/main.aux)
@@ -1010,15 +1087,15 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 99B2AEB6A12F361B8001864CE4A07D62;754.
+(rerunfilecheck)             Checksum: EEABB359EE01DB6516B17A4BBEF00CB6;754.
  ) 
 Here is how much of TeX's memory you used:
- 33336 strings out of 475691
- 689147 string characters out of 5779901
- 1943753 words of memory out of 5000000
- 55464 multiletter control sequences out of 15000+600000
- 612758 words of font info for 122 fonts, out of 8000000 for 9000
+ 33682 strings out of 475691
+ 702531 string characters out of 5779901
+ 1938753 words of memory out of 5000000
+ 55791 multiletter control sequences out of 15000+600000
+ 612017 words of font info for 118 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 101i,16n,107p,6639b,922s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,16n,126p,6639b,925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.dvi (16 pages, 85160 bytes).
+Output written on out/main.dvi (23 pages, 67864 bytes).

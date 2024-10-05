@@ -2,28 +2,25 @@
 
 % Theme settings
 \mode<presentation> {
-  \usetheme{Marburg}
+  % \usetheme{Marburg}
+  \usetheme{Metropolis}
 }
 
-%--------------- Color definitions----------------------
-%my-color
-\definecolor{my-color}{RGB}{0,128,255} % 青
-%\definecolor{my-color}{RGB}{120,100,210} % 紫
-%\definecolor{my-color}{RGB}{80,200,220} % 緑
-\definecolor{important}{RGB}{247,239,158} % 薄い黄色
-\definecolor{important_font}{RGB}{255,0,0} % 赤
+%--------------- Color definitions--------------------
+\definecolor{important_font}{named}{red}
 \definecolor{back}{RGB}{255,255,255} % 白
-%\definecolor{back}{RGB}{245,245,245} % グレー
+% \definecolor{back}{RGB}{245,245,245} % グレー
 
-% Structure color
-\setbeamercolor{structure}{fg=my-color}
+%my-color
+%\definecolor{my-color}{RGB}{0,0,0}
+%\setbeamercolor{structure}{fg=my-color}
 
 % Background color settings
 %\setbeamercolor{background canvas}{bg=my-color!20}
 \setbeamercolor{background canvas}{bg=white}
 
 % Sidebar color settings
-\setbeamertemplate{sidebar canvas right}[vertical shading][top=my-color!40!black,bottom=my-color!80!black]
+% \setbeamertemplate{sidebar canvas right}[vertical shading][top=my-color!40!black,bottom=my-color!80!black]
 
 % Font and language settings
 \usepackage{bxdpx-beamer}
@@ -87,13 +84,17 @@
 
 % Font size settings
 \setbeamerfont{caption}{size=\normalsize}
-\setbeamerfont{block title}{size=\LARGE}
+\setbeamerfont{frametitle}{size=\Large}
+\setbeamerfont{block title}{size=\Large}
 \setbeamerfont*{itemize/enumerate body}{size=\large}
 \setbeamerfont*{itemize/enumerate subbody}{parent=itemize/enumerate body, size=\normalsize}
 \setbeamerfont*{itemize/enumerate subsubbody}{parent=itemize/enumerate subbody, size=\normalsize}
+\setbeamerfont{section in toc}{size=\small} % セクションのフォントサイズを小さく
+\setbeamerfont{subsection in toc}{size=\scriptsize} % サブセクションのフォントサイズをさらに小さく
+
 
 % Frame title color settings
-\setbeamercolor{frametitle}{fg=white,bg=my-color!40!black}
+% \setbeamercolor{frametitle}{fg=white,bg=my-color!40!black}
 
 % Block environment settings
 \setbeamercolor{block body}{bg=back}
@@ -104,6 +105,7 @@
 
 % Bibliography formatting
 \beamertemplatetextbibitems
+
 
 \begin{document}
 \input{slide_template.tex}
