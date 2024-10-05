@@ -1,35 +1,31 @@
 \documentclass[final,dvipdfmx,aspectratio=169]{beamer}
 
+% Theme settings
 \mode<presentation> {
   \usetheme{Marburg}
 }
-%ポスターテーマ色
-\definecolor{my-color}{RGB}{0,128,255} %青
-% \definecolor{my-color}{RGB}{120,100,210} %紫
-% \definecolor{my-color}{RGB}{80,200,220} %緑
 
-%\color{important}で枠とかを強調
-%\color{important_font}で文字を強調
-%\my-colorを緑として想定
-\definecolor{important}{RGB}{247,239,158} %薄い黄色
-\definecolor{important_font}{RGB}{255,0,0} %the 赤
+%--------------- Color definitions----------------------
+%my-color
+\definecolor{my-color}{RGB}{0,128,255} % 青
+%\definecolor{my-color}{RGB}{120,100,210} % 紫
+%\definecolor{my-color}{RGB}{80,200,220} % 緑
+\definecolor{important}{RGB}{247,239,158} % 薄い黄色
+\definecolor{important_font}{RGB}{255,0,0} % 赤
+\definecolor{back}{RGB}{255,255,255} % 白
+%\definecolor{back}{RGB}{245,245,245} % グレー
 
-%block環境の背景色白orグレー
-\definecolor{back}{RGB}{255,255,255}
-% \definecolor{back}{RGB}{245,245,245}
+% Structure color
+\setbeamercolor{structure}{fg=my-color}
 
-%select↓
-% \usecolortheme{orchid} %こっちはあるあるテンプレ
-\setbeamercolor{structure}{fg=my-color} %個性出したい人向け
-
-
-%背景色のmy-color 0.2 : white 0.8
+% Background color settings
 %\setbeamercolor{background canvas}{bg=my-color!20}
-\setbeamercolor{background canvas}{bg = white}
+\setbeamercolor{background canvas}{bg=white}
 
-%サイドバーの色設定
-\setbeamertemplate{sidebar canvas right}[vertical shading][top=my-color!40!black,bottom=my-color!80!black] 
+% Sidebar color settings
+\setbeamertemplate{sidebar canvas right}[vertical shading][top=my-color!40!black,bottom=my-color!80!black]
 
+% Font and language settings
 \usepackage{bxdpx-beamer}
 \usepackage[japanese]{babel}
 \usepackage{caption}
@@ -45,66 +41,70 @@
 \usepackage{array}
 \usepackage{xcolor}
 \tcbuselibrary{breakable, skins, theorems}
-\usetikzlibrary{shapes.geometric}
-\usetikzlibrary {shapes.misc}
-\usetikzlibrary{positioning}
+\usetikzlibrary{shapes.geometric, shapes.misc, positioning}
 
-%しおりの文字化け対策
+% Font encoding for bookmarks
 \usepackage{pxjahyper}
 \usepackage{atbegshi}
-\ifnum 42146=\euc"A4A2 \AtBeginShipoutFirst{\special{pdf:tounicode EUC-UCS2}}\else
-\AtBeginShipoutFirst{\special{pdf:tounicode 90ms-RKSJ-UCS2}}\fi
+\ifnum 42146=\euc"A4A2 
+  \AtBeginShipoutFirst{\special{pdf:tounicode EUC-UCS2}} 
+\else
+  \AtBeginShipoutFirst{\special{pdf:tounicode 90ms-RKSJ-UCS2}}
+\fi
 
+% Underline with color
 \makeatletter
 \newlength{\chwidth}%
 \newcommand{\ulinej}[1]{%
-\@tfor\ch:=#1\do%a
-{\ch%
-  \settowidth{\chwidth}{\ch}%
-  \hspace{-\chwidth}%
-  \underline{\vphantom{あ}\phantom{\ch}}%
-}%
+  \@tfor\ch:=#1\do%a
+  {\ch%
+    \settowidth{\chwidth}{\ch}%
+    \hspace{-\chwidth}%
+    \underline{\vphantom{あ}\phantom{\ch}}%
+  }%
 }%
 \makeatother
 \newcommand{\coloruline}[2][black]{\textcolor{#1}{\ulinej{#2}}}
 
+% Math and font settings
 \mathversion{bold}
 \usefonttheme{professionalfonts}
 \usefonttheme[onlymath]{serif}
 \renewcommand{\familydefault}{\sfdefault}
 \renewcommand{\kanjifamilydefault}{\gtdefault}
 
+% Caption settings
 \captionsetup[figure]{name=図}
 \captionsetup[table]{name=表}
-\setbeamertemplate{caption}[numbered] % 図や表のキャプションに図1，図2，図3．．．などをつける
+\setbeamertemplate{caption}[numbered]
 \setbeamertemplate{footline}[frame number]
 
+% Graphics path
 \graphicspath{{img/}}
 
-\setbeamertemplate{navigation symbols}{}   % ナビゲーションバーを表示しません
+% Remove navigation symbols
+\setbeamertemplate{navigation symbols}{}
 
+% Font size settings
 \setbeamerfont{caption}{size=\normalsize}
 \setbeamerfont{block title}{size=\LARGE}
 \setbeamerfont*{itemize/enumerate body}{size=\large}
 \setbeamerfont*{itemize/enumerate subbody}{parent=itemize/enumerate body, size=\normalsize}
 \setbeamerfont*{itemize/enumerate subsubbody}{parent=itemize/enumerate subbody, size=\normalsize}
 
-% \setbeamercolor{palette secondary}{bg=my-color}
-% \setbeamercolor{palette tertiary}{bg=my-color}
+% Frame title color settings
 \setbeamercolor{frametitle}{fg=white,bg=my-color!40!black}
 
+% Block environment settings
 \setbeamercolor{block body}{bg=back}
 \setbeamercolor{bibliography entry author}{fg=black}
 \setbeamercolor{bibliography entry journal}{fg=black}
 \setbeamercolor{bibliography entry note}{fg=black}
 \setbeamercolor{bibliography entry publisher}{fg=black}
 
-%セクションの始まりスライド
-% \AtBeginSection[]{
-%     \frame{\tableofcontents[currentsection, hideallsubsections]} %目次スライド
-% }
-
+% Bibliography formatting
 \beamertemplatetextbibitems
+
 \begin{document}
 \input{slide_template.tex}
 \end{document}

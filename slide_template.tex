@@ -54,7 +54,7 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{デモ}
+  \frametitle{彩色問題の例}
   %動画のリンクへ飛ぶorローカルで流す
   彩色問題：リンク\\
   % 巡回セールスマン：リンク %デモが動き次第コメントアウトを解除
@@ -118,8 +118,8 @@
 \begin{frame}
   \frametitle{例}
     \begin{columns}[T]
-      \begin{column}{0.48\textwidth}
-        \begin{block}{\large 彩色問題}
+      \begin{column}{0.47\textwidth}
+        {\large 彩色問題}
         \footnotesize{
         \[
           \begin{aligned}
@@ -130,17 +130,19 @@
         \begin{center}
           ${\large \downarrow}$
         \end{center}
+        \begin{tcolorbox}[top=0mm, left=0mm, right=0mm, bottom=0mm]
         \[
           \begin{aligned}
               \text{minimize} \quad \sum_{i,j\in Adj}\sum_{k\in color}q_{i,k}q_{j,k}\\
-               + \sum_{k\in color}(\sum_{i,j\in Adj}-1)^2\\
+               + \sum_{k\in color}(\sum_{i\in Adj}q_{i,k}-1)^2\\
           \end{aligned}
-        \]}
-        \end{block}
+        \]  
+        \end{tcolorbox}
+        }
       \end{column}  
 
-      \begin{column}{0.48\textwidth}
-        \begin{block}{\large 巡回セールスマン問題}
+      \begin{column}{0.55\textwidth}
+        {\large 巡回セールスマン問題}
         \footnotesize{
         \[
           \begin{aligned}
@@ -152,30 +154,56 @@
         \begin{center}
           ${\large \downarrow}$
         \end{center}
+        \begin{tcolorbox}[top=0mm, left=1mm, right=0mm, bottom=0mm]
         \[
           \begin{aligned}
               &\text{minimize} \quad \sum_{i,j\in C}\sum_{k = 0}^n w_{i,j}q_{i,k}q_{j,k+1}\\
                &+ \sum_{k=0}^n(\sum_{i\in C}q_{i,k}-1)^2+\sum_{i\in C}(\sum_{k=0}^nq_{i,k}-1)^2\\
           \end{aligned}
-        \]}
-        \end{block}
+        \]  
+        \end{tcolorbox}
+        }
       \end{column}  
     \end{columns}
 \end{frame}
 
+\section{デモ}
 \begin{frame}
-  \frametitle{背景}
-  hogehoge
-  %グラフ彩色問題での実験結果を載せる
-  %onehotありなし
+  \frametitle{デモ}
+  デモをやるよ\\
+  目的とみるべきポイントを紹介\\
+  エネルギーが下がる様子\\
 \end{frame}
 
 \section{手法}
 \begin{frame}
   \frametitle{手法}
-  {\Large 制約を常に満たすように解を遷移させる-Swap Based}
-
+  {\Large 制約を常に満たすように解を遷移させる}\\
+  bitをswapさせます\\
+  というのも...
 \end{frame}
+
+\subsection{単純な形}
+\begin{frame}
+  \frametitle{手法}
+  単純な例について考えよう\\
+  ・一次制約、二次制約、完全二次制約（造語）について触れる\\
+  ・bit flipとの違い（図表で示す）
+\end{frame}
+
+\subsection{一般化}
+\begin{frame}
+  \frametitle{手法}
+  一般化するにはごにょごにょ
+\end{frame}
+
+\section{比較}
+\begin{frame}
+  \frametitle{比較}
+  hamiltonianにpenaltyを含むものと含まないものでのエネルギーの落ち方\\
+  
+\end{frame}
+
 
 \section{参考文献}
 \begin{frame}[t]{参考文献}
