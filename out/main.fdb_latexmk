@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex out/main"] 1728134028.10054 "out/main.aux" "out/main.bbl" "out/main" 1728134148.87589 0
+["bibtex out/main"] 1728191617.53089 "out/main.aux" "out/main.bbl" "out/main" 1728191620.01485 0
   "./bibliography.bib" 1722654576 0 d41d8cd98f00b204e9800998ecf8427e ""
   "junsrt.bst" 0 -1 0 ""
-  "out/main.aux" 1728134145 6299 33e3ce4a37ddb241c032a776e4d72d41 "latex"
+  "out/main.aux" 1728191619 14759 3031f24b46548ed846620305e86fa7ee "latex"
   (generated)
   "out/main.bbl"
   "out/main.blg"
   (rewritten before read)
-["dvipdf"] 1728134147.82139 "out/main.dvi" "out/main.pdf" "out/main" 1728134148.9189 0
-  "out/main.dvi" 1728134146 67864 e1a471580b02f24ad66888be81e412a3 "latex"
+["dvipdf"] 1728191619.78593 "out/main.dvi" "out/main.pdf" "out/main" 1728191620.02198 0
+  "out/main.dvi" 1728191619 148480 87dbf3e6a57262a6a9a66395944557ad "latex"
   (generated)
   "out/main.pdf"
   (rewritten before read)
-["latex"] 1728134140.28311 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1728134148.8769 0
-  "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" 1728134020 3218 d41065b00c0213a1b22cc751246054cd ""
+["latex"] 1728191617.65824 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1728191620.01505 0
+  "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" 1728189233 3317 e8360a1fcc8df5c749e37dd8ec9236d1 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm" 1719543324 1536 f0fa079cdc83a6ffeda21e42352cf1ea ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1200.tfm" 1719543324 1536 809a177113b9dd743dafe00d0870078f ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1719547251 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -98,11 +98,15 @@
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex" 1719546708 35249 abd4adf948f960299a4b3d27c5dddf46 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex" 1719546708 22012 81b34a0aa8fa1a6158cc6220b00e4f10 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex" 1719546708 8893 e851de2175338fdf7c17f3e091d94618 ""
+  "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex" 1719546708 5628 dc0ee4ba7f3e40acae5600067ce833de ""
+  "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex" 1719546708 788 fb28645a91ec7448ebe79bee60965a88 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex" 1719546709 3937 3f208572dd82c71103831da976d74f1a ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex" 1719546709 339 be0fe46d92a80e3385dd6a83511a46f2 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex" 1719546709 329 ba6d5440f8c16779c2384e0614158266 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex" 1719546709 11518 738408f795261b70ce8dd47459171309 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex" 1719546709 186782 af500404a9edec4d362912fe762ded92 ""
+  "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex" 1719546713 5220 c70346acb7ff99702098460fd6c18993 ""
+  "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex" 1719546713 58801 1e750fb0692eb99aaac45698bbec96b1 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex" 1719546713 32995 ac577023e12c0e4bd8aa420b2e852d1a ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex" 1719546714 161011 76ab54df0aa1a9d3b27a94864771d38d ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex" 1719546714 46249 d1f322c52d26cf506b4988f31902cd5d ""
@@ -121,6 +125,7 @@
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex" 1719546714 92405 f515f31275db273f97b9d8f52e1b0736 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex" 1719546714 37466 97b0a1ba732e306a1a2034f5a73e239f ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex" 1719546714 8471 c2883569d03f69e8e1cabfef4999cfd7 ""
+  "c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex" 1719546714 71742 3da44a8be6626eef1c400c68776c7a0f ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex" 1719546714 21211 1e73ec76bd73964d84197cc3d2685b01 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex" 1719546714 16121 346f9013d34804439f7436ff6786cef7 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex" 1719546714 44792 271e2e1934f34c759f4dedb1e14a5015 ""
@@ -233,10 +238,12 @@
   "c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1719544725 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def" 1719544728 29748 8e95a4c177d0fd42b8beea2dd6186aa4 ""
   "c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty" 1719544759 6565 9112779ee7624275fd04efaf61c82420 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty" 1719544778 4674 7ee0778deacb92a25a58270fc8ec2920 ""
   "c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1719544778 9327 090c6c81eff433de1562ec6a5b1b31ee ""
   "c:/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd" 1719545201 1867 996fe743d88a01aca041ed22cc10e1bb ""
   "c:/texlive/2024/texmf-dist/tex/latex/mathtools/mathtools.sty" 1719545730 62672 9ff036bc89365461cc2bd482cc1e4879 ""
   "c:/texlive/2024/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1719545730 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty" 1719546130 6149 2398eec4faa1ee24ff761581e580ecf1 ""
   "c:/texlive/2024/texmf-dist/tex/latex/optidef/optidef.sty" 1719546460 24625 1f9a54f633aad013cc9fd957e79ea7ee ""
   "c:/texlive/2024/texmf-dist/tex/latex/pagecolor/pagecolor.sty" 1719546496 9888 bce9a9132a3f756ede24729ac30ff1e9 ""
   "c:/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty" 1719546608 8086 ac143843b6ea88d172677dc3ed532925 ""
@@ -262,6 +269,7 @@
   "c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty" 1719549489 2573 42712c9e0a2df004e43df5b3c95f0c1e ""
   "c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty" 1719549489 1120 ba535da48caa03bf1fd3f03ea87779f8 ""
   "c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex" 1719549489 10931 717eb52299f416934beb8b2b7cd8cee6 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/tikzmark/tikzlibrarytikzmark.code.tex" 1719549507 29192 15678a70708058bb7b2a574cb81e86a4 ""
   "c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty" 1719549667 14067 1383bd6ee23ab18ae0e796155404deb7 ""
   "c:/texlive/2024/texmf-dist/tex/latex/tools/bm.sty" 1719549667 13236 1aba485b47e3c79a47dc0906cc971820 ""
   "c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty" 1719549667 10214 61188260d324e94bc2f66825d7d3fdf4 ""
@@ -284,13 +292,13 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1719541440 42000 d4442d41499783a67244425458021966 ""
   "c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1719550537 6917418 026518a9c5f626f71060e3dad0a8f531 ""
   "c:/texlive/2024/texmf.cnf" 1719550448 713 e69b156964470283e0530f5060668171 ""
-  "main.tex" 1728134020 3218 d41065b00c0213a1b22cc751246054cd ""
-  "out/main.aux" 1728134145 6299 33e3ce4a37ddb241c032a776e4d72d41 "latex"
-  "out/main.bbl" 1728134028 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
-  "out/main.nav" 1728134145 3548 f9098269639cceff7e4ebb5b7bb76f9d "latex"
-  "out/main.out" 1728134145 754 eeabb359ee01db6516b17a4bbef00cb6 "latex"
-  "out/main.toc" 1728134146 501 1f9f5f28936703a341ad6bf283785eec "latex"
-  "slide_template.tex" 1728134138 5829 6d0e23af8a892ff8946ac0a77bd03fbf ""
+  "main.tex" 1728189233 3317 e8360a1fcc8df5c749e37dd8ec9236d1 ""
+  "out/main.aux" 1728191619 14759 3031f24b46548ed846620305e86fa7ee "latex"
+  "out/main.bbl" 1728191617 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
+  "out/main.nav" 1728191619 3522 dfa786e027dfffa00cf23abc4450a6b3 "latex"
+  "out/main.out" 1728191619 663 11795334668b9f25468e048b969f0e38 "latex"
+  "out/main.toc" 1728191619 446 2f28c4f020b128aff85f0b1ec2f298d7 "latex"
+  "slide_template.tex" 1728191615 9972 0efc2ed1bb8c475bab9e6a8d629e461d ""
   (generated)
   "out/main.aux"
   "out/main.dvi"

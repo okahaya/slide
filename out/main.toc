@@ -3,9 +3,8 @@
 \beamer@sectionintoc {2}{前提}{5}{0}{2}
 \beamer@sectionintoc {3}{背景}{10}{0}{3}
 \beamer@subsectionintoc {3}{1}{問題例}{13}{0}{3}
-\beamer@sectionintoc {4}{デモ}{14}{0}{4}
-\beamer@sectionintoc {5}{手法}{16}{0}{5}
-\beamer@subsectionintoc {5}{1}{単純な形}{18}{0}{5}
-\beamer@subsectionintoc {5}{2}{一般化}{19}{0}{5}
-\beamer@sectionintoc {6}{比較}{20}{0}{6}
-\beamer@sectionintoc {7}{参考文献}{22}{0}{7}
+\beamer@sectionintoc {4}{デモ}{16}{0}{4}
+\beamer@sectionintoc {5}{手法}{18}{0}{5}
+\beamer@subsectionintoc {5}{1}{一般化}{38}{0}{5}
+\beamer@sectionintoc {6}{比較}{39}{0}{6}
+\beamer@sectionintoc {7}{参考文献}{41}{0}{7}

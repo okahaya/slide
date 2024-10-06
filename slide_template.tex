@@ -17,7 +17,7 @@
 
 \section{自己紹介}
 \begin{frame}
-  \frametitle{自己紹介}
+  \frametitle{どうもこんにちは}
   \begin{itemize}
       \item 名前：岡田颯斗（高校3年生）
       \item 趣味・興味：
@@ -30,11 +30,9 @@
 
 \section{前提}
 \begin{frame}
-  \frametitle{前提}
-
-  {\Large \color{important_font}  量子アニーリングは組合せ最適化問題を解く手段の一つ}
-  \vspace{5mm}
-
+  \frametitle{量子アニーリングは組合せ最適化問題を解く手段の一つ}
+  よく扱われる問題の例：\\
+  \vspace{10mm}
   \begin{columns}
     \begin{column}{0.45\textwidth}
       \textbf{彩色問題}
@@ -54,15 +52,14 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{例としての彩色問題}
-  %動画のリンクへ飛ぶorローカルで流す
+  \frametitle{彩色問題}
+  %4×4のほう
   彩色問題：リンク\\
-  % 巡回セールスマン：リンク %デモが動き次第コメントアウトを解除
 \end{frame}
 
 
 \begin{frame}
-  \frametitle{続：前提}
+  \frametitle{だがしかし}
 
   {\Large  量子アニーリングは組合せ最適化問題を解く手段の一つ}
   \vspace{5mm}
@@ -88,12 +85,11 @@
 
 \section{背景}
 \begin{frame}
-  \frametitle{背景}
-  {\Large \color{important_font} 量子アニーリングはm個の中からn個選ぶのが苦手}\\
-  \vspace{5mm}
+  \frametitle{量子アニーリングはm個の中からn個選ぶのが苦手}
+  
   なぜなら...\\
   \begin{itemize}
-    \item 制約はペナルティ項として目的関数につけられる
+    \item 制約がペナルティ項として目的関数につけられてしまう
     \item すると問題が非本質な方向へ最適化される
   \end{itemize}
 
@@ -116,7 +112,7 @@
 
 \subsection{問題例}
 \begin{frame}
-  \frametitle{例}
+  \frametitle{式で見ると}
     \begin{columns}[T]
       \begin{column}{0.47\textwidth}
         {\large 彩色問題}
@@ -167,28 +163,90 @@
     \end{columns}
 \end{frame}
 
+\begin{frame}
+  \frametitle{つまり}
+
+  {\Large   量子アニーリングは組合せ最適化問題を解く手段の一つ}
+  \vspace{5mm}
+
+  \begin{columns}
+    \begin{column}{0.45\textwidth}
+      \textbf{彩色問題}
+      \begin{itemize}
+          \item 隣り合う場所は異なる色で塗分ける
+          \item {\color{important_font}各地点はちょうど一色で塗られる}
+      \end{itemize}
+    \end{column}
+
+    \begin{column}{0.45\textwidth}
+      \textbf{巡回セールスマン問題}
+      \begin{itemize}
+          \item 複数の街を最短経路ですべて訪れる
+          \item {\color{important_font}各時間に訪れることのできるサイトはちょうど1か所}
+          \item {\color{important_font}各地点ちょうど1回訪れる}
+      \end{itemize}
+    \end{column}
+  \end{columns}
+  \vspace{5mm}
+  \pause{これらの制約を常に満たすように解を遷移させていけば効率が上がりそう}
+\end{frame}
+
 \section{デモ}
 \begin{frame}
-  \frametitle{デモ}
-  デモをやるよ\\
-  目的とみるべきポイントを紹介\\
-  エネルギーが下がる様子\\
+  \frametitle{彩色問題（再）}
+  エネルギーが下がっていく様子を付けた20×20の彩色問題の動画
 \end{frame}
 
 \section{手法}
 \begin{frame}
-  \frametitle{手法}
-  {\Large 制約を常に満たすように解を遷移させる}\\
-  bitをswapさせます\\
-  というのも...
+  \frametitle{簡単な例：彩色問題}
+  \begin{table}
+    \centering
+    \begin{tabular}{c|c c c c c}
+        \textbf{$q_{i,j}$} & \textbf{場所1} & \textbf{場所2} & \textbf{場所3} & \textbf{場所4} & \textbf{場所5} \\
+        \hline
+        \textbf{色1} &\only<1>{\cellcolor{orange}} 0 &\only<2>{\cellcolor{orange}} 0 &\only<3>{\cellcolor{orange}} 1 &\only<4>{\cellcolor{orange}} 0 &\only<5>{\cellcolor{orange}} 0  \\
+        \textbf{色2} &\only<1>{\cellcolor{orange}} 1 &\tikzmark{A}\only<2>{\cellcolor{orange}}\only<6>{\cellcolor{yellow}} 0 &\only<3>{\cellcolor{orange}} 0 &\only<4>{\cellcolor{orange}} 1 &\only<5>{\cellcolor{orange}} 0  \\
+        \textbf{色3} &\only<1>{\cellcolor{orange}} 0 &\only<2>{\cellcolor{orange}} 0 &\only<3>{\cellcolor{orange}} 0 &\only<4>{\cellcolor{orange}} 0 &\only<5>{\cellcolor{orange}} 1  \\
+        \textbf{色4} &\only<1>{\cellcolor{orange}} 0 &\tikzmark{B}\only<2>{\cellcolor{orange}}\only<6>{\cellcolor{yellow}} 1 &\only<3>{\cellcolor{orange}} 0 &\only<4>{\cellcolor{orange}} 0 &\only<5>{\cellcolor{orange}} 0  \\
+    \end{tabular}
+  \end{table}
+
+  \tikzset{arrow style/.style={->, thick, draw=orange, rounded corners, shorten >=5pt, shorten <=5pt, line width=1.5pt}}
+  \begin{tikzpicture}[remember picture,overlay,baseline=0pt] 
+    \only<6>{
+    \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:A) to ([shift={(1ex,0)}]pic cs:B);
+    \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:B) to ([shift={(1ex,0)}]pic cs:A);}
+  \end{tikzpicture}
+
 \end{frame}
 
-\subsection{単純な形}
 \begin{frame}
-  \frametitle{手法}
-  単純な例について考えよう\\
-  ・一次制約、二次制約、完全二次制約（造語）について触れる\\
-  ・bit flipとの違い（図表で示す）
+  \frametitle{その次くらいに簡単な例：巡回セールスマン}
+
+  \begin{table}
+    \centering
+    \begin{tabular}{c|c c c c c}
+        \textbf{$q_{i,j}$} & \textbf{場所1} & \textbf{場所2} & \textbf{場所3} & \textbf{場所4} & \textbf{場所5} \\
+        \hline
+        \textbf{順番1} &\only<1,6,12>{\cellcolor{orange}} 0 &\only<2,6,12>{\cellcolor{orange}} 0 &\only<3,6>{\cellcolor{orange}} 1 &\only<4,6>{\cellcolor{orange}} 0 &\only<5,6>{\cellcolor{orange}} 0  \\
+        \textbf{順番2} &\tikzmark{a}\only<1,7,11,12>{\cellcolor{orange}}\only<13>{\cellcolor{yellow}} 1 &\tikzmark{b}\only<2,7,11,12>{\cellcolor{orange}}\only<13>{\cellcolor{yellow}} 0 &\only<3,7,11,12>{\cellcolor{orange}} 0 &\only<4,7,11,12>{\cellcolor{orange}} 0 &\only<5,7,11,12>{\cellcolor{orange}} 0  \\
+        \textbf{順番3} &\only<1,8,12>{\cellcolor{orange}} 0 &\only<2,8,12>{\cellcolor{orange}} 0 &\only<3,8>{\cellcolor{orange}} 0 &\only<4,8>{\cellcolor{orange}} 0 &\only<5,8>{\cellcolor{orange}} 1  \\
+        \textbf{順番4} &\only<1,9,12>{\cellcolor{orange}} 0 &\only<2,9,12>{\cellcolor{orange}} 0 &\only<3,9>{\cellcolor{orange}} 0 &\only<4,9>{\cellcolor{orange}} 1 &\only<5,9>{\cellcolor{orange}} 0  \\
+        \textbf{順番5} &\tikzmark{c}\only<1,10,11,12>{\cellcolor{orange}}\only<13>{\cellcolor{yellow}} 0 &\tikzmark{d}\only<2,10,11,12>{\cellcolor{orange}}\only<13>{\cellcolor{yellow}} 1 &\only<3,10,11,12>{\cellcolor{orange}} 0 &\only<4,10,11,12>{\cellcolor{orange}} 0 &\only<5,10,11,12>{\cellcolor{orange}} 0  \\
+    \end{tabular}
+    \tikzset{arrow style/.style={->, thick, draw=orange, rounded corners, shorten >=5pt, shorten <=5pt, line width=1.5pt}}
+    \begin{tikzpicture}[remember picture,overlay,baseline=0pt] 
+      \only<13>{\draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:a) to ([shift={(1ex,0)}]pic cs:c);
+      \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:b) to ([shift={(1ex,0)}]pic cs:d);
+      \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:c) to ([shift={(1ex,0)}]pic cs:a);
+      \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:d) to ([shift={(1ex,0)}]pic cs:b);}
+    \end{tikzpicture}
+  
+\end{table}
+
+
+  
 \end{frame}
 
 \subsection{一般化}
