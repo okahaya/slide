@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex out/main"] 1728191617.53089 "out/main.aux" "out/main.bbl" "out/main" 1728191620.01485 0
+["bibtex out/main"] 1728207180.87445 "out/main.aux" "out/main.bbl" "out/main" 1728207196.40003 0
   "./bibliography.bib" 1722654576 0 d41d8cd98f00b204e9800998ecf8427e ""
   "junsrt.bst" 0 -1 0 ""
-  "out/main.aux" 1728191619 14759 3031f24b46548ed846620305e86fa7ee "latex"
+  "out/main.aux" 1728207190 14514 722837fbcdfe775d165c0e2afc3ea5c2 "latex"
   (generated)
   "out/main.bbl"
   "out/main.blg"
   (rewritten before read)
-["dvipdf"] 1728191619.78593 "out/main.dvi" "out/main.pdf" "out/main" 1728191620.02198 0
-  "out/main.dvi" 1728191619 148480 87dbf3e6a57262a6a9a66395944557ad "latex"
+["dvipdf"] 1728207192.59817 "out/main.dvi" "out/main.pdf" "out/main" 1728207196.44163 0
+  "out/main.dvi" 1728207190 148588 19be1a254beb45c47bb93b677187a3a6 "latex"
   (generated)
   "out/main.pdf"
   (rewritten before read)
-["latex"] 1728191617.65824 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1728191620.01505 0
-  "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" 1728189233 3317 e8360a1fcc8df5c749e37dd8ec9236d1 ""
+["latex"] 1728207181.43693 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1728207196.40104 0
+  "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" 1728206316 3365 0645b7ca4c8e5c8739d7799e52946d41 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm" 1719543324 1536 f0fa079cdc83a6ffeda21e42352cf1ea ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1200.tfm" 1719543324 1536 809a177113b9dd743dafe00d0870078f ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1719547251 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -100,6 +100,7 @@
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex" 1719546708 8893 e851de2175338fdf7c17f3e091d94618 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex" 1719546708 5628 dc0ee4ba7f3e40acae5600067ce833de ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex" 1719546708 788 fb28645a91ec7448ebe79bee60965a88 ""
+  "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex" 1719546709 770 82e332cc9cc48e06b8070d74393a185a ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex" 1719546709 3937 3f208572dd82c71103831da976d74f1a ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex" 1719546709 339 be0fe46d92a80e3385dd6a83511a46f2 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex" 1719546709 329 ba6d5440f8c16779c2384e0614158266 ""
@@ -107,6 +108,7 @@
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex" 1719546709 186782 af500404a9edec4d362912fe762ded92 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex" 1719546713 5220 c70346acb7ff99702098460fd6c18993 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex" 1719546713 58801 1e750fb0692eb99aaac45698bbec96b1 ""
+  "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex" 1719546713 7936 49e55444d57eb69a380c6baa35094828 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex" 1719546713 32995 ac577023e12c0e4bd8aa420b2e852d1a ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex" 1719546714 161011 76ab54df0aa1a9d3b27a94864771d38d ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex" 1719546714 46249 d1f322c52d26cf506b4988f31902cd5d ""
@@ -292,13 +294,17 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1719541440 42000 d4442d41499783a67244425458021966 ""
   "c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1719550537 6917418 026518a9c5f626f71060e3dad0a8f531 ""
   "c:/texlive/2024/texmf.cnf" 1719550448 713 e69b156964470283e0530f5060668171 ""
-  "main.tex" 1728189233 3317 e8360a1fcc8df5c749e37dd8ec9236d1 ""
-  "out/main.aux" 1728191619 14759 3031f24b46548ed846620305e86fa7ee "latex"
-  "out/main.bbl" 1728191617 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
-  "out/main.nav" 1728191619 3522 dfa786e027dfffa00cf23abc4450a6b3 "latex"
-  "out/main.out" 1728191619 663 11795334668b9f25468e048b969f0e38 "latex"
-  "out/main.toc" 1728191619 446 2f28c4f020b128aff85f0b1ec2f298d7 "latex"
-  "slide_template.tex" 1728191615 9972 0efc2ed1bb8c475bab9e6a8d629e461d ""
+  "data/SQAwithOnehot_ene.png" 1726387003 441948 8db8028bfcd9d35f7ee5ee6f644b9a28 ""
+  "data/SSQA_ene.png" 1726476464 130628 6c0c02eedb743166c4b1afc0b74eda1d ""
+  "data/graph1.png" 1728207025 94951 bac29491c376811b21570faec90fae62 ""
+  "data/rakugaki1.jpg" 1728207015 1072836 c99d5775ef1f66a8881e25f0a23df398 ""
+  "main.tex" 1728206316 3365 0645b7ca4c8e5c8739d7799e52946d41 ""
+  "out/main.aux" 1728207190 14514 722837fbcdfe775d165c0e2afc3ea5c2 "latex"
+  "out/main.bbl" 1728207181 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
+  "out/main.nav" 1728207190 3389 60a007eb0509674aded8a7e1c02c100a "latex"
+  "out/main.out" 1728207190 565 b3d56f2d0a5124b9573f9fc0c089e5ca "latex"
+  "out/main.toc" 1728207190 388 3acffa8f143b405baab659c3a4d799f7 "latex"
+  "slide_template.tex" 1728207168 10321 018db4893938a50d9e0a972d1c4c29b4 ""
   (generated)
   "out/main.aux"
   "out/main.dvi"

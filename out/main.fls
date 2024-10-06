@@ -405,6 +405,10 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/tikzmark/tikzlibrarytikzmark.code.tex
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tikzmark/tikzlibrarytikzmark.code.tex
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
+INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
+INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
 INPUT c:/texlive/2024/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty
 INPUT c:/texlive/2024/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/bxjatoucs/bxjatoucs.sty
@@ -526,6 +530,22 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT ./data/SSQA_ene.png
+INPUT ./data/SSQA_ene.png
+INPUT ./data/SSQA_ene.png
+INPUT extractbb -B cropbox -O data/SSQA_ene.png
+INPUT ./data/SQAwithOnehot_ene.png
+INPUT ./data/SQAwithOnehot_ene.png
+INPUT ./data/SQAwithOnehot_ene.png
+INPUT extractbb -B cropbox -O data/SQAwithOnehot_ene.png
+INPUT ./data/rakugaki1.jpg
+INPUT ./data/rakugaki1.jpg
+INPUT ./data/rakugaki1.jpg
+INPUT extractbb -B cropbox -O data/rakugaki1.jpg
+INPUT ./data/graph1.png
+INPUT ./data/graph1.png
+INPUT ./data/graph1.png
+INPUT extractbb -B cropbox -O data/graph1.png
 INPUT out/main.bbl
 INPUT out/main.bbl
 INPUT out/main.bbl
