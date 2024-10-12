@@ -369,6 +369,16 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/diagbox/diagbox.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/diagbox/diagbox.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.cfg
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pict2e/p2e-dvipdfmx.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pict2e/p2e-dvipdfmx.def
+INPUT c:/texlive/2024/texmf-dist/tex/latex/pict2e/p2e-dvipdfmx.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
@@ -530,14 +540,15 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
-INPUT ./data/SSQA_ene.png
-INPUT ./data/SSQA_ene.png
-INPUT ./data/SSQA_ene.png
-INPUT extractbb -B cropbox -O data/SSQA_ene.png
-INPUT ./data/SQAwithOnehot_ene.png
-INPUT ./data/SQAwithOnehot_ene.png
-INPUT ./data/SQAwithOnehot_ene.png
-INPUT extractbb -B cropbox -O data/SQAwithOnehot_ene.png
+INPUT ./data/GC_ene.png
+INPUT ./data/GC_ene.png
+INPUT ./data/GC_ene.png
+INPUT extractbb -B cropbox -O data/GC_ene.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT ./data/GC_onehot_ene.png
+INPUT ./data/GC_onehot_ene.png
+INPUT ./data/GC_onehot_ene.png
+INPUT extractbb -B cropbox -O data/GC_onehot_ene.png
 INPUT ./data/rakugaki1.jpg
 INPUT ./data/rakugaki1.jpg
 INPUT ./data/rakugaki1.jpg

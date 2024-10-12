@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  6 OCT 2024 18:33
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  14 OCT 2024 12:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -804,16 +804,47 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 LaTeX Warning: Package "xcolor" has already been loaded: ignoring load-time
 (LaTeX)        option "dvipdfmx".
 
-(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+(c:/texlive/2024/texmf-dist/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2020/02/09 v2.3 Making table heads with diagonal lines
+(c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+(c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: dvipdfmx.def on input line 112.
+Package pict2e Info: Driver file for pict2e: p2e-dvipdfmx.def on input line 114.
+(c:/texlive/2024/texmf-dist/tex/latex/pict2e/p2e-dvipdfmx.def
+File: p2e-dvipdfmx.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks56
+\@arclen=\dimen353
+\@arcrad=\dimen354
+\pIIe@tempdima=\dimen355
+\pIIe@tempdimb=\dimen356
+\pIIe@tempdimc=\dimen357
+\pIIe@tempdimd=\dimen358
+\pIIe@tempdime=\dimen359
+\pIIe@tempdimf=\dimen360
+)
+\diagbox@boxa=\box123
+\diagbox@boxb=\box124
+\diagbox@boxm=\box125
+\diagbox@wd=\dimen361
+\diagbox@ht=\dimen362
+\diagbox@insepl=\dimen363
+\diagbox@insepr=\dimen364
+\diagbox@outsepl=\dimen365
+\diagbox@outsepr=\dimen366
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
 (c:/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
 Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box123
-\tcb@totalupperbox=\box124
-\tcb@totallowerbox=\box125
+\tcb@testbox=\box126
+\tcb@totalupperbox=\box127
+\tcb@totallowerbox=\box128
 ) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
 (c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
@@ -822,7 +853,7 @@ Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 ) (c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box126
+\l__tikzfill_img_box=\box129
 )) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
 )) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
@@ -838,31 +869,31 @@ File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen353
-\pgfdecoratedremainingdistance=\dimen354
-\pgfdecoratedinputsegmentcompleteddistance=\dimen355
-\pgfdecoratedinputsegmentremainingdistance=\dimen356
-\pgf@decorate@distancetomove=\dimen357
+\pgfdecoratedcompleteddistance=\dimen367
+\pgfdecoratedremainingdistance=\dimen368
+\pgfdecoratedinputsegmentcompleteddistance=\dimen369
+\pgfdecoratedinputsegmentremainingdistance=\dimen370
+\pgf@decorate@distancetomove=\dimen371
 \pgf@decorate@repeatstate=\count373
-\pgfdecorationsegmentamplitude=\dimen358
-\pgfdecorationsegmentlength=\dimen359
+\pgfdecorationsegmentamplitude=\dimen372
+\pgfdecorationsegmentlength=\dimen373
 )
-\tikz@lib@dec@box=\box127
+\tikz@lib@dec@box=\box130
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen360
-\pgfarrowlength=\dimen361
-\pgfarrowwidth=\dimen362
-\pgfarrowlinewidth=\dimen363
+\pgfarrowinset=\dimen374
+\pgfarrowlength=\dimen375
+\pgfarrowwidth=\dimen376
+\pgfarrowlinewidth=\dimen377
 ) (c:/texlive/2024/texmf-dist/tex/latex/tikzmark/tikzlibrarytikzmark.code.tex
 File: tikzlibrarytikzmark.code.tex 2022/08/24 v1.15 TikZ library for marking positions in a document
 (c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
 )
-\l__sn_x_dim=\dimen364
-\l__sn_y_dim=\dimen365
-\l__sn_xa_dim=\dimen366
-\l__sn_ya_dim=\dimen367
+\l__sn_x_dim=\dimen378
+\l__sn_y_dim=\dimen379
+\l__sn_xa_dim=\dimen380
+\l__sn_ya_dim=\dimen381
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypatterns.code.tex
 File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
@@ -882,28 +913,28 @@ Package pxjahyper Info: The setup for hyperref 'unicode' is applied.
 (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (out/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
-LaTeX Font Info:    ... okay on input line 115.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
 * driver: dvipdfm
@@ -937,7 +968,7 @@ LaTeX Font Info:    ... okay on input line 115.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 115.
+Package hyperref Info: Link coloring OFF on input line 116.
 (out/main.out) (out/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1087,6 +1118,11 @@ Overfull \vbox (7.62927pt too high) detected at line 164
 [21
 
 ]
+Overfull \hbox (22.761pt too wide) detected at line 276
+[][][] []$[]$[][][][][][][][][] []$[]$[][][][][][][] 
+ []
+
+
 
 [22
 
@@ -1099,6 +1135,15 @@ Overfull \vbox (7.62927pt too high) detected at line 164
 [24
 
 ]
+File: data/GC_ene.png Graphic file (type bmp)
+<data/GC_ene.png>
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10.95> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 321.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10.95> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 321.
+File: data/GC_onehot_ene.png Graphic file (type bmp)
+<data/GC_onehot_ene.png>
+
 
 [25
 
@@ -1107,74 +1152,13 @@ Overfull \vbox (7.62927pt too high) detected at line 164
 [26
 
 ]
-
-[27
-
-]
-
-[28
-
-]
-
-[29
-
-]
-
-[30
-
-]
-
-[31
-
-]
-
-[32
-
-]
-
-[33
-
-]
-
-[34
-
-]
-
-[35
-
-]
-
-[36
-
-]
-
-[37
-
-]
-
-[38
-
-]
-File: data/SSQA_ene.png Graphic file (type bmp)
-<data/SSQA_ene.png>
-File: data/SQAwithOnehot_ene.png Graphic file (type bmp)
-<data/SQAwithOnehot_ene.png>
-
-
-[39
-
-]
-
-[40
-
-]
 File: data/rakugaki1.jpg Graphic file (type bmp)
 <data/rakugaki1.jpg>
 File: data/graph1.png Graphic file (type bmp)
 <data/graph1.png>
 
 
-[41
+[27
 
 ] (out/main.bbl
 
@@ -1182,7 +1166,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[42
+[28
 
 ])
 \tf@nav=\write6
@@ -1204,12 +1188,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B3D56F2D0A5124B9573F9FC0C089E5CA;565.
  ) 
 Here is how much of TeX's memory you used:
- 35292 strings out of 475691
- 744659 string characters out of 5779901
+ 35267 strings out of 475691
+ 743763 string characters out of 5779901
  1938753 words of memory out of 5000000
- 57357 multiletter control sequences out of 15000+600000
- 612017 words of font info for 118 fonts, out of 8000000 for 9000
+ 57319 multiletter control sequences out of 15000+600000
+ 612311 words of font info for 119 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 105i,16n,126p,6639b,925s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,16n,126p,6639b,1012s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.dvi (42 pages, 148588 bytes).
+Output written on out/main.dvi (28 pages, 98392 bytes).

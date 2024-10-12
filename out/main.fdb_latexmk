@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex out/main"] 1728207180.87445 "out/main.aux" "out/main.bbl" "out/main" 1728207196.40003 0
-  "./bibliography.bib" 1722654576 0 d41d8cd98f00b204e9800998ecf8427e ""
+["bibtex out/main"] 1728870594.06416 "out/main.aux" "out/main.bbl" "out/main" 1728875638.04343 0
+  "./bibliography.bib" 1728625488 0 d41d8cd98f00b204e9800998ecf8427e ""
   "junsrt.bst" 0 -1 0 ""
-  "out/main.aux" 1728207190 14514 722837fbcdfe775d165c0e2afc3ea5c2 "latex"
+  "out/main.aux" 1728875637 7138 bdfe16320100373f954d89b893490ec7 "latex"
   (generated)
   "out/main.bbl"
   "out/main.blg"
   (rewritten before read)
-["dvipdf"] 1728207192.59817 "out/main.dvi" "out/main.pdf" "out/main" 1728207196.44163 0
-  "out/main.dvi" 1728207190 148588 19be1a254beb45c47bb93b677187a3a6 "latex"
+["dvipdf"] 1728875637.42798 "out/main.dvi" "out/main.pdf" "out/main" 1728875638.05121 0
+  "out/main.dvi" 1728875637 98392 f1c362d1e3ce294df7503f7883f13b3d "latex"
   (generated)
   "out/main.pdf"
   (rewritten before read)
-["latex"] 1728207181.43693 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1728207196.40104 0
-  "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" 1728206316 3365 0645b7ca4c8e5c8739d7799e52946d41 ""
+["latex"] 1728875635.05746 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1728875638.04364 0
+  "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" 1728628024 3386 2264800ea6beee5205ff48e645c68efc ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm" 1719543324 1536 f0fa079cdc83a6ffeda21e42352cf1ea ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1200.tfm" 1719543324 1536 809a177113b9dd743dafe00d0870078f ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1719547251 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -217,6 +217,7 @@
   "c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty" 1719542338 72619 ee90b6612147680fd73c3b1406a74245 ""
   "c:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty" 1719542338 12494 0c0cdb824278a4d51cefeb2e79901315 ""
   "c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty" 1719542660 12345 7bca4ad292ae2b62fed1766b543d04d5 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/diagbox/diagbox.sty" 1719543163 14481 3bd2c6a722b221038c31c25ef3d51ba6 ""
   "c:/texlive/2024/texmf-dist/tex/latex/environ/environ.sty" 1719543456 4378 f429f0da968c278653359293040a8f52 ""
   "c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1719543527 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty" 1719543926 41601 9cf6c5257b1bc7af01a58859749dd37a ""
@@ -261,6 +262,9 @@
   "c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1719546715 325 f9f16d12354225b7dd52a3321f085955 ""
   "c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty" 1719546716 2232 b9a67bccba736ed334b4b1a860a85c6f ""
   "c:/texlive/2024/texmf-dist/tex/latex/pgfopts/pgfopts.sty" 1719546767 5540 d5c60cf09c59da351aa4023ed084e4eb ""
+  "c:/texlive/2024/texmf-dist/tex/latex/pict2e/p2e-dvipdfmx.def" 1719546947 1092 f8b919c7b665272d17e921262783508a ""
+  "c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.cfg" 1719546947 1920 2185073db458618f4a8a794158cf3681 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/pict2e/pict2e.sty" 1719546947 30933 ccdcd551eb516817cc8f41862254e6e7 ""
   "c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty" 1719547431 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1719547469 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex" 1719548190 34667 aedede1f84e908a7a38dccbeea73e77f ""
@@ -294,17 +298,17 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1719541440 42000 d4442d41499783a67244425458021966 ""
   "c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1719550537 6917418 026518a9c5f626f71060e3dad0a8f531 ""
   "c:/texlive/2024/texmf.cnf" 1719550448 713 e69b156964470283e0530f5060668171 ""
-  "data/SQAwithOnehot_ene.png" 1726387003 441948 8db8028bfcd9d35f7ee5ee6f644b9a28 ""
-  "data/SSQA_ene.png" 1726476464 130628 6c0c02eedb743166c4b1afc0b74eda1d ""
-  "data/graph1.png" 1728207025 94951 bac29491c376811b21570faec90fae62 ""
-  "data/rakugaki1.jpg" 1728207015 1072836 c99d5775ef1f66a8881e25f0a23df398 ""
-  "main.tex" 1728206316 3365 0645b7ca4c8e5c8739d7799e52946d41 ""
-  "out/main.aux" 1728207190 14514 722837fbcdfe775d165c0e2afc3ea5c2 "latex"
-  "out/main.bbl" 1728207181 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
-  "out/main.nav" 1728207190 3389 60a007eb0509674aded8a7e1c02c100a "latex"
-  "out/main.out" 1728207190 565 b3d56f2d0a5124b9573f9fc0c089e5ca "latex"
-  "out/main.toc" 1728207190 388 3acffa8f143b405baab659c3a4d799f7 "latex"
-  "slide_template.tex" 1728207168 10321 018db4893938a50d9e0a972d1c4c29b4 ""
+  "data/GC_ene.png" 1728875289 42194 94b7e49e89f11234cac11ca6ff57b093 ""
+  "data/GC_onehot_ene.png" 1728874827 42827 076d7060932425931c9e88cd22113b0d ""
+  "data/graph1.png" 1728625488 94951 bac29491c376811b21570faec90fae62 ""
+  "data/rakugaki1.jpg" 1728625488 1072836 c99d5775ef1f66a8881e25f0a23df398 ""
+  "main.tex" 1728628024 3386 2264800ea6beee5205ff48e645c68efc ""
+  "out/main.aux" 1728875637 7138 bdfe16320100373f954d89b893490ec7 "latex"
+  "out/main.bbl" 1728870594 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
+  "out/main.nav" 1728875637 3573 54a5964fd6c3b26ec52f57d430f14095 "latex"
+  "out/main.out" 1728875637 565 b3d56f2d0a5124b9573f9fc0c089e5ca "latex"
+  "out/main.toc" 1728875637 388 8c719096274d2b18b6742cc1e156e4c4 "latex"
+  "slide_template.tex" 1728875634 12116 0a994817491d50ec814ba26c4455cd71 ""
   (generated)
   "out/main.aux"
   "out/main.dvi"
