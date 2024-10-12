@@ -205,18 +205,19 @@
     \begin{tabular}{c|c c c c c}
         \textbf{$q_{i,j}$} & \textbf{場所1} & \textbf{場所2} & \textbf{場所3} & \textbf{場所4} & \textbf{場所5} \\
         \hline
-        \textbf{色1} &\only<1>{\cellcolor{orange}} 0 &\only<2>{\cellcolor{orange}} 0 &\only<3>{\cellcolor{orange}} 1 &\only<4>{\cellcolor{orange}} 0 &\only<5>{\cellcolor{orange}} 0  \\
-        \textbf{色2} &\only<1>{\cellcolor{orange}} 1 &\tikzmark{A}\only<2>{\cellcolor{orange}}\only<6>{\cellcolor{yellow}} 0 &\only<3>{\cellcolor{orange}} 0 &\only<4>{\cellcolor{orange}} 1 &\only<5>{\cellcolor{orange}} 0  \\
-        \textbf{色3} &\only<1>{\cellcolor{orange}} 0 &\only<2>{\cellcolor{orange}} 0 &\only<3>{\cellcolor{orange}} 0 &\only<4>{\cellcolor{orange}} 0 &\only<5>{\cellcolor{orange}} 1  \\
-        \textbf{色4} &\only<1>{\cellcolor{orange}} 0 &\tikzmark{B}\only<2>{\cellcolor{orange}}\only<6>{\cellcolor{yellow}} 1 &\only<3>{\cellcolor{orange}} 0 &\only<4>{\cellcolor{orange}} 0 &\only<5>{\cellcolor{orange}} 0  \\
+        \textbf{色1} &{\cellcolor{blue!50}} 0 & 0                                         &{\cellcolor{blue!50}} 1 & 0 &{\cellcolor{blue!50}} 0  \\
+        \textbf{色2} &{\cellcolor{blue!50}} 1 & 0\only<2>{\tikzmark{A}\cellcolor{yellow}} &{\cellcolor{blue!50}} 0 & 1 &{\cellcolor{blue!50}} 0  \\
+        \textbf{色3} &{\cellcolor{blue!50}} 0 & 0                                         &{\cellcolor{blue!50}} 0 & 0 &{\cellcolor{blue!50}} 1  \\
+        \textbf{色4} &{\cellcolor{blue!50}} 0 & 1\only<2>{\tikzmark{B}\cellcolor{yellow}} &{\cellcolor{blue!50}} 0 & 0 &{\cellcolor{blue!50}} 0  \\
     \end{tabular}
   \end{table}
-
-  \tikzset{arrow style/.style={->, thick, draw=orange, rounded corners, shorten >=5pt, shorten <=5pt, line width=1.5pt}}
+  \hspace{4.4cm}$\uparrow$\hspace{1.3cm}$\uparrow$\hspace{1.3cm}$\uparrow$\hspace{1.3cm}$\uparrow$\hspace{1.3cm}$\uparrow$\\
+  \centering{各列1はちょうど1つ}
+  \tikzset{arrow style/.style={->, thick, draw=black, rounded corners, shorten >=5pt, shorten <=5pt, line width=1.5pt}}
   \begin{tikzpicture}[remember picture,overlay,baseline=0pt] 
-    \only<6>{
-    \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:A) to ([shift={(1ex,0)}]pic cs:B);
-    \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:B) to ([shift={(1ex,0)}]pic cs:A);}
+    \only<2>{
+    \draw[arrow style, bend left=-60] ([shift={(-0.5ex,0)}]pic cs:A) to ([shift={(-0.5ex,0)}]pic cs:B);
+    \draw[arrow style, bend left=-60] ([shift={(-0.5ex,0)}]pic cs:B) to ([shift={(-0.5ex,0)}]pic cs:A);}
   \end{tikzpicture}
 
 \end{frame}
@@ -229,21 +230,43 @@
     \begin{tabular}{c|c c c c c}
         \textbf{$q_{i,j}$} & \textbf{場所1} & \textbf{場所2} & \textbf{場所3} & \textbf{場所4} & \textbf{場所5} \\
         \hline
-        \textbf{順番1} &\only<1,6,12>{\cellcolor{orange}} 0 &\only<2,6,12>{\cellcolor{orange}} 0 &\only<3,6>{\cellcolor{orange}} 1 &\only<4,6>{\cellcolor{orange}} 0 &\only<5,6>{\cellcolor{orange}} 0  \\
-        \textbf{順番2} &\tikzmark{a}\only<1,7,11,12>{\cellcolor{orange}}\only<13>{\cellcolor{yellow}} 1 &\tikzmark{b}\only<2,7,11,12>{\cellcolor{orange}}\only<13>{\cellcolor{yellow}} 0 &\only<3,7,11,12>{\cellcolor{orange}} 0 &\only<4,7,11,12>{\cellcolor{orange}} 0 &\only<5,7,11,12>{\cellcolor{orange}} 0  \\
-        \textbf{順番3} &\only<1,8,12>{\cellcolor{orange}} 0 &\only<2,8,12>{\cellcolor{orange}} 0 &\only<3,8>{\cellcolor{orange}} 0 &\only<4,8>{\cellcolor{orange}} 0 &\only<5,8>{\cellcolor{orange}} 1  \\
-        \textbf{順番4} &\only<1,9,12>{\cellcolor{orange}} 0 &\only<2,9,12>{\cellcolor{orange}} 0 &\only<3,9>{\cellcolor{orange}} 0 &\only<4,9>{\cellcolor{orange}} 1 &\only<5,9>{\cellcolor{orange}} 0  \\
-        \textbf{順番5} &\tikzmark{c}\only<1,10,11,12>{\cellcolor{orange}}\only<13>{\cellcolor{yellow}} 0 &\tikzmark{d}\only<2,10,11,12>{\cellcolor{orange}}\only<13>{\cellcolor{yellow}} 1 &\only<3,10,11,12>{\cellcolor{orange}} 0 &\only<4,10,11,12>{\cellcolor{orange}} 0 &\only<5,10,11,12>{\cellcolor{orange}} 0  \\
+        \textbf{順番1} &{\cellcolor{blue!50}} 0 & 0 &{\cellcolor{blue!50}} 1 & 0 &{\cellcolor{blue!50}} 0  \\
+        \textbf{順番2} &{\cellcolor{blue!50}} 1 & 0 &{\cellcolor{blue!50}} 0 & 0 &{\cellcolor{blue!50}} 0  \\
+        \textbf{順番3} &{\cellcolor{blue!50}} 0 & 0 &{\cellcolor{blue!50}} 0 & 0 &{\cellcolor{blue!50}} 1  \\
+        \textbf{順番4} &{\cellcolor{blue!50}} 0 & 0 &{\cellcolor{blue!50}} 0 & 1 &{\cellcolor{blue!50}} 0  \\
+        \textbf{順番5} &{\cellcolor{blue!50}} 0 & 1 &{\cellcolor{blue!50}} 0 & 0 &{\cellcolor{blue!50}} 0  \\
     \end{tabular}
-    \tikzset{arrow style/.style={->, thick, draw=orange, rounded corners, shorten >=5pt, shorten <=5pt, line width=1.5pt}}
+  \end{table}
+  \hspace{4.65cm}$\uparrow$\hspace{1.3cm}$\uparrow$\hspace{1.3cm}$\uparrow$\hspace{1.3cm}$\uparrow$\hspace{1.3cm}$\uparrow$\\
+  \centering{各列1はちょうど1つ}
+\end{frame}
+
+\setcounter{framenumber}{11}
+\begin{frame}
+  \frametitle{その次くらいに簡単な例：巡回セールスマン}
+
+  \begin{table}
+    \centering
+    \begin{tabular}{c|c c c c c}
+        \textbf{$q_{i,j}$} & \textbf{場所1} & \textbf{場所2} & \textbf{場所3} & \textbf{場所4} & \textbf{場所5} \\
+        \hline
+        \textbf{順番1} & 0                                         & 0                                         & 1 & 0 & 0  \\
+        \textbf{順番2} & 0\only<2>{\tikzmark{a}\cellcolor{yellow}} & 0\only<2>{\tikzmark{b}\cellcolor{yellow}} & 0 & 0 & 0  \\
+        \textbf{順番3} & 0                                         & 0                                         & 0 & 0 & 1  \\
+        \textbf{順番4} & 0                                         & 0                                         & 0 & 1 & 0  \\
+        \textbf{順番5} & 0\only<2>{\tikzmark{c}\cellcolor{yellow}} & 1\only<2>{\tikzmark{d}\cellcolor{yellow}} & 0 & 0 & 0  \\
+    \end{tabular}
+  \end{table}
+    \tikzset{arrow style/.style={->, thick, draw=black, rounded corners, shorten >=5pt, shorten <=5pt, line width=1.5pt}}
     \begin{tikzpicture}[remember picture,overlay,baseline=0pt] 
-      \only<13>{\draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:a) to ([shift={(1ex,0)}]pic cs:c);
-      \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:b) to ([shift={(1ex,0)}]pic cs:d);
-      \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:c) to ([shift={(1ex,0)}]pic cs:a);
-      \draw[arrow style, bend left=-60] ([shift={(1ex,0)}]pic cs:d) to ([shift={(1ex,0)}]pic cs:b);}
+      \only<2>{
+      \draw[arrow style, bend left=-60] ([shift={(-0.5ex,0)}]pic cs:a) to ([shift={(-0.5ex,0)}]pic cs:c);
+      \draw[arrow style, bend left=-60] ([shift={(-0.5ex,0)}]pic cs:b) to ([shift={(-0.5ex,0)}]pic cs:d);
+      \draw[arrow style, bend left=-60] ([shift={(-0.5ex,0)}]pic cs:c) to ([shift={(-0.5ex,0)}]pic cs:a);
+      \draw[arrow style, bend left=-60] ([shift={(-0.5ex,0)}]pic cs:d) to ([shift={(-0.5ex,0)}]pic cs:b);}
     \end{tikzpicture}
   
-\end{table}
+
 \end{frame}
 
 \section{比較}

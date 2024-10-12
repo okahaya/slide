@@ -5,5 +5,5 @@
 \beamer@subsectionintoc {3}{1}{問題例}{13}{0}{3}
 \beamer@sectionintoc {4}{デモ}{16}{0}{4}
 \beamer@sectionintoc {5}{手法}{18}{0}{5}
-\beamer@sectionintoc {6}{比較}{38}{0}{6}
-\beamer@sectionintoc {7}{展望}{40}{0}{7}
+\beamer@sectionintoc {6}{比較}{24}{0}{6}
+\beamer@sectionintoc {7}{展望}{26}{0}{7}
