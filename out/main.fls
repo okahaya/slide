@@ -540,6 +540,24 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT ./data/GCP_example.png
+INPUT ./data/GCP_example.png
+INPUT extractbb -B cropbox -O data/GCP_example.png
+INPUT ./data/GCP_example_graph.png
+INPUT ./data/GCP_example_graph.png
+INPUT extractbb -B cropbox -O data/GCP_example_graph.png
+INPUT ./data/kanzen1ji_bitflip.png
+INPUT ./data/kanzen1ji_bitflip.png
+INPUT extractbb -B cropbox -O data/kanzen1ji_bitflip.png
+INPUT ./data/TSP_example.png
+INPUT ./data/TSP_example.png
+INPUT extractbb -B cropbox -O data/TSP_example.png
+INPUT ./data/TSP_example_graph.png
+INPUT ./data/TSP_example_graph.png
+INPUT extractbb -B cropbox -O data/TSP_example_graph.png
+INPUT ./data/kanzen2ji_bitflip.png
+INPUT ./data/kanzen2ji_bitflip.png
+INPUT extractbb -B cropbox -O data/kanzen2ji_bitflip.png
 INPUT ./data/GC_ene.png
 INPUT ./data/GC_ene.png
 INPUT ./data/GC_ene.png
@@ -549,14 +567,27 @@ INPUT ./data/GC_onehot_ene.png
 INPUT ./data/GC_onehot_ene.png
 INPUT ./data/GC_onehot_ene.png
 INPUT extractbb -B cropbox -O data/GC_onehot_ene.png
-INPUT ./data/rakugaki1.jpg
-INPUT ./data/rakugaki1.jpg
-INPUT ./data/rakugaki1.jpg
-INPUT extractbb -B cropbox -O data/rakugaki1.jpg
-INPUT ./data/graph1.png
-INPUT ./data/graph1.png
-INPUT ./data/graph1.png
-INPUT extractbb -B cropbox -O data/graph1.png
+INPUT ./data/bit_to_graph.png
+INPUT ./data/bit_to_graph.png
+INPUT ./data/bit_to_graph.png
+INPUT extractbb -B cropbox -O data/bit_to_graph.png
+INPUT ./data/kanzen2ji_to_graph.png
+INPUT ./data/kanzen2ji_to_graph.png
+INPUT extractbb -B cropbox -O data/kanzen2ji_to_graph.png
+INPUT ./data/2ji_to_graph.png
+INPUT ./data/2ji_to_graph.png
+INPUT extractbb -B cropbox -O data/2ji_to_graph.png
+INPUT ./data/kanzen2ji_path.png
+INPUT ./data/kanzen2ji_path.png
+INPUT ./data/kanzen2ji_path.png
+INPUT extractbb -B cropbox -O data/kanzen2ji_path.png
+INPUT ./data/2ji_path.png
+INPUT ./data/2ji_path.png
+INPUT ./data/2ji_path.png
+INPUT extractbb -B cropbox -O data/2ji_path.png
+INPUT ./data/kanzen2ji_path.png
+INPUT ./data/kanzen2ji_path.png
+INPUT ./data/kanzen2ji_path.png
 INPUT out/main.bbl
 INPUT out/main.bbl
 INPUT out/main.bbl

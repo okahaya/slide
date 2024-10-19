@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  14 OCT 2024 12:25
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  19 OCT 2024 11:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1078,7 +1078,7 @@ LaTeX Font Warning: Command \large invalid in math mode on input line 164.
 LaTeX Font Warning: Command \large invalid in math mode on input line 164.
 
 
-Overfull \vbox (7.62927pt too high) detected at line 164
+Overfull \vbox (10.71033pt too high) detected at line 164
  []
 
 
@@ -1118,31 +1118,33 @@ Overfull \vbox (7.62927pt too high) detected at line 164
 [21
 
 ]
-Overfull \hbox (22.761pt too wide) detected at line 276
-[][][] []$[]$[][][][][][][][][] []$[]$[][][][][][][] 
- []
-
+File: data/GCP_example.png Graphic file (type bmp)
+<data/GCP_example.png>
+File: data/GCP_example_graph.png Graphic file (type bmp)
+<data/GCP_example_graph.png>
 
 
 [22
 
 ]
+File: data/kanzen1ji_bitflip.png Graphic file (type bmp)
+<data/kanzen1ji_bitflip.png>
+
 
 [23
 
 ]
+File: data/TSP_example.png Graphic file (type bmp)
+<data/TSP_example.png>
+File: data/TSP_example_graph.png Graphic file (type bmp)
+<data/TSP_example_graph.png>
+
 
 [24
 
 ]
-File: data/GC_ene.png Graphic file (type bmp)
-<data/GC_ene.png>
-LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 321.
-LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 321.
-File: data/GC_onehot_ene.png Graphic file (type bmp)
-<data/GC_onehot_ene.png>
+File: data/kanzen2ji_bitflip.png Graphic file (type bmp)
+<data/kanzen2ji_bitflip.png>
 
 
 [25
@@ -1152,13 +1154,70 @@ File: data/GC_onehot_ene.png Graphic file (type bmp)
 [26
 
 ]
-File: data/rakugaki1.jpg Graphic file (type bmp)
-<data/rakugaki1.jpg>
-File: data/graph1.png Graphic file (type bmp)
-<data/graph1.png>
+File: data/GC_ene.png Graphic file (type bmp)
+<data/GC_ene.png>
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10.95> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 285.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10.95> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 285.
+File: data/GC_onehot_ene.png Graphic file (type bmp)
+<data/GC_onehot_ene.png>
 
 
 [27
+
+]
+
+[28
+
+]
+File: data/bit_to_graph.png Graphic file (type bmp)
+<data/bit_to_graph.png>
+
+
+[29
+
+]
+File: data/kanzen2ji_to_graph.png Graphic file (type bmp)
+<data/kanzen2ji_to_graph.png>
+
+Overfull \vbox (7.25972pt too high) detected at line 305
+ []
+
+
+
+[30
+
+]
+File: data/2ji_to_graph.png Graphic file (type bmp)
+<data/2ji_to_graph.png>
+
+
+[31
+
+]
+File: data/kanzen2ji_path.png Graphic file (type bmp)
+<data/kanzen2ji_path.png>
+File: data/2ji_path.png Graphic file (type bmp)
+<data/2ji_path.png>
+
+
+[32
+
+]
+File: data/kanzen2ji_path.png Graphic file (type bmp)
+<data/kanzen2ji_path.png>
+
+
+[33
+
+]
+
+[34
+
+]
+
+[35
 
 ] (out/main.bbl
 
@@ -1166,7 +1225,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[28
+[36
 
 ])
 \tf@nav=\write6
@@ -1178,6 +1237,10 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
+
+Package caption Warning: Unused \captionsetup[table] on input line 81.
+See the caption package documentation for explanation.
+
 (out/main.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
@@ -1185,15 +1248,15 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B3D56F2D0A5124B9573F9FC0C089E5CA;565.
+(rerunfilecheck)             Checksum: C1A45B21D45213EFA164FCC753313103;672.
  ) 
 Here is how much of TeX's memory you used:
- 35267 strings out of 475691
- 743763 string characters out of 5779901
- 1938753 words of memory out of 5000000
- 57319 multiletter control sequences out of 15000+600000
+ 35339 strings out of 475691
+ 746266 string characters out of 5779901
+ 1939753 words of memory out of 5000000
+ 57383 multiletter control sequences out of 15000+600000
  612311 words of font info for 119 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 105i,16n,126p,6639b,1012s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,16n,126p,6639b,1018s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.dvi (28 pages, 98392 bytes).
+Output written on out/main.dvi (36 pages, 126012 bytes).

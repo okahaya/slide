@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex out/main"] 1728876354.33758 "out/main.aux" "out/main.bbl" "out/main" 1728876357.3916 0
+["bibtex out/main"] 1729306194.78547 "out/main.aux" "out/main.bbl" "out/main" 1729306205.08532 0
   "./bibliography.bib" 1728625488 0 d41d8cd98f00b204e9800998ecf8427e ""
   "junsrt.bst" 0 -1 0 ""
-  "out/main.aux" 1728876356 7138 bdfe16320100373f954d89b893490ec7 "latex"
+  "out/main.aux" 1729306198 7633 6e41c421a7b8d1504d0a990813e2237a "latex"
   (generated)
   "out/main.bbl"
   "out/main.blg"
   (rewritten before read)
-["dvipdf"] 1728876356.78621 "out/main.dvi" "out/main.pdf" "out/main" 1728876357.3991 0
-  "out/main.dvi" 1728876356 98392 b0c6973338c9d4669c35f5f287e01ca8 "latex"
+["dvipdf"] 1729306198.51995 "out/main.dvi" "out/main.pdf" "out/main" 1729306205.09297 0
+  "out/main.dvi" 1729306198 126012 f3482c69df33d26729deff3c6628c260 "latex"
   (generated)
   "out/main.pdf"
   (rewritten before read)
-["latex"] 1728876354.46486 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1728876357.39182 0
+["latex"] 1729306194.90934 "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" "out/main.dvi" "main" 1729306205.08551 0
   "c:/Users/okaha/Desktop/mito_shiyro/slide/main.tex" 1728628024 3386 2264800ea6beee5205ff48e645c68efc ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm" 1719543324 1536 f0fa079cdc83a6ffeda21e42352cf1ea ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1200.tfm" 1719543324 1536 809a177113b9dd743dafe00d0870078f ""
@@ -298,17 +298,26 @@
   "c:/texlive/2024/texmf-dist/web2c/texmf.cnf" 1719541440 42000 d4442d41499783a67244425458021966 ""
   "c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt" 1719550537 6917418 026518a9c5f626f71060e3dad0a8f531 ""
   "c:/texlive/2024/texmf.cnf" 1719550448 713 e69b156964470283e0530f5060668171 ""
-  "data/GC_ene.png" 1728875289 42194 94b7e49e89f11234cac11ca6ff57b093 ""
-  "data/GC_onehot_ene.png" 1728874827 42827 076d7060932425931c9e88cd22113b0d ""
-  "data/graph1.png" 1728625488 94951 bac29491c376811b21570faec90fae62 ""
-  "data/rakugaki1.jpg" 1728625488 1072836 c99d5775ef1f66a8881e25f0a23df398 ""
+  "data/2ji_path.png" 1729300293 149413 2dcd7f3b11dd7eb4d9f12bb479da303b ""
+  "data/2ji_to_graph.png" 1729303780 525477 cdac46ab5e194dad7817d9ed3ce11d3b ""
+  "data/GCP_example.png" 1729300125 305236 1fb55f6c6fbca0e2aa90de9a88114ed3 ""
+  "data/GCP_example_graph.png" 1729300103 76834 17a78778f9fbf13d547b75beddd9aaf2 ""
+  "data/GC_ene.png" 1728878351 31183 76b27cf31292a56208426a6f8a24283c ""
+  "data/GC_onehot_ene.png" 1728877943 50256 59b9f277d03a8affe2f0379b7388ae52 ""
+  "data/TSP_example.png" 1729300481 396801 af679b731960d9e0ef300944460f99e1 ""
+  "data/TSP_example_graph.png" 1729300670 91765 53e9e1aec3341a86fef5de7651027d5b ""
+  "data/bit_to_graph.png" 1729302540 181859 0cd4e1fad47538736e2b1426c7fbc47c ""
+  "data/kanzen1ji_bitflip.png" 1729299583 255913 4b783f722c2358e86cd14aa05e8e3bf6 ""
+  "data/kanzen2ji_bitflip.png" 1729299530 398680 0ab3633b6ea7686a727dc744964fedfb ""
+  "data/kanzen2ji_path.png" 1729300276 191227 551e0b09a234c1056f561f187e20a42b ""
+  "data/kanzen2ji_to_graph.png" 1729303165 554338 7a7b5d0ec5298f95464790b2a97b27c2 ""
   "main.tex" 1728628024 3386 2264800ea6beee5205ff48e645c68efc ""
-  "out/main.aux" 1728876356 7138 bdfe16320100373f954d89b893490ec7 "latex"
-  "out/main.bbl" 1728876354 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
-  "out/main.nav" 1728876356 3573 54a5964fd6c3b26ec52f57d430f14095 "latex"
-  "out/main.out" 1728876356 565 b3d56f2d0a5124b9573f9fc0c089e5ca "latex"
-  "out/main.toc" 1728876356 388 8c719096274d2b18b6742cc1e156e4c4 "latex"
-  "slide_template.tex" 1728876351 12458 0a994817491d50ec814ba26c4455cd71 ""
+  "out/main.aux" 1729306198 7633 6e41c421a7b8d1504d0a990813e2237a "latex"
+  "out/main.bbl" 1729306194 49 0eba253fc001332e731e8aba3f23127b "bibtex out/main"
+  "out/main.nav" 1729306198 4310 b176729efa2f657d5c5d6d40cf5fec7a "latex"
+  "out/main.out" 1729306198 672 c1a45b21d45213efa164fcc753313103 "latex"
+  "out/main.toc" 1729306198 449 15673e353a8c8c1c4e21b1f84c4abf6c "latex"
+  "slide_template.tex" 1729306194 11033 118744c05f2fc45b3b54530bc17644e8 ""
   (generated)
   "out/main.aux"
   "out/main.dvi"
