@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  19 OCT 2024 15:30
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  20 OCT 2024 10:05
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -913,28 +913,28 @@ Package pxjahyper Info: The setup for hyperref 'unicode' is applied.
 (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty) (c:/texlive/2024/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty) (out/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
 * driver: dvipdfm
@@ -968,7 +968,7 @@ LaTeX Font Info:    ... okay on input line 116.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 116.
+Package hyperref Info: Link coloring OFF on input line 121.
 (out/main.out) (out/main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1072,13 +1072,13 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
 
 ]
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 164.
+LaTeX Font Warning: Command \large invalid in math mode on input line 165.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 164.
+LaTeX Font Warning: Command \large invalid in math mode on input line 165.
 
 
-Overfull \vbox (10.71033pt too high) detected at line 164
+Overfull \vbox (10.71033pt too high) detected at line 165
  []
 
 
@@ -1157,9 +1157,9 @@ File: data/kanzen2ji_bitflip.png Graphic file (type bmp)
 File: data/GC_ene.png Graphic file (type bmp)
 <data/GC_ene.png>
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 285.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 287.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 285.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 287.
 File: data/GC_onehot_ene.png Graphic file (type bmp)
 <data/GC_onehot_ene.png>
 
@@ -1167,33 +1167,46 @@ File: data/GC_onehot_ene.png Graphic file (type bmp)
 [27
 
 ]
+File: data/TSP_graph.png Graphic file (type bmp)
+<data/TSP_graph.png>
+File: data/TSP_broken.png Graphic file (type bmp)
+<data/TSP_broken.png>
+
+Overfull \vbox (32.86038pt too high) detected at line 303
+ []
+
+
 
 [28
+
+]
+
+[29
 
 ]
 File: data/bit_to_graph.png Graphic file (type bmp)
 <data/bit_to_graph.png>
 
 
-[29
+[30
 
 ]
 File: data/kanzen2ji_to_graph.png Graphic file (type bmp)
 <data/kanzen2ji_to_graph.png>
 
-Overfull \vbox (7.25972pt too high) detected at line 305
+Overfull \vbox (7.25972pt too high) detected at line 323
  []
 
 
 
-[30
+[31
 
 ]
 File: data/2ji_to_graph.png Graphic file (type bmp)
 <data/2ji_to_graph.png>
 
 
-[31
+[32
 
 ]
 File: data/kanzen2ji_path.png Graphic file (type bmp)
@@ -1202,16 +1215,12 @@ File: data/2ji_path.png Graphic file (type bmp)
 <data/2ji_path.png>
 
 
-[32
+[33
 
 ]
 File: data/kanzen2ji_path.png Graphic file (type bmp)
 <data/kanzen2ji_path.png>
 
-
-[33
-
-]
 
 [34
 
@@ -1219,13 +1228,47 @@ File: data/kanzen2ji_path.png Graphic file (type bmp)
 
 [35
 
-] (out/main.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-)
+]
 
 [36
+
+] (out/main.bbl
+LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <6> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <6> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 5.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 6.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 11.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 16.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 21.
+LaTeX Font Info:    Kanji font shape `JY1/gt/bx/it' undefined
+(Font)              No change on input line 30.
+
+LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
+(Font)              using `OT1/cmss/bx/n' instead on input line 30.
+
+LaTeX Font Info:    Kanji font shape `JY1/gt/bx/it' undefined
+(Font)              No change on input line 30.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 37.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 42.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 47.
+LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
+(Font)              No change on input line 57.
+)
+
+[37
+
+]
+
+[38
+
 
 ])
 \tf@nav=\write6
@@ -1247,16 +1290,19 @@ pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C1A45B21D45213EFA164FCC753313103;672.
  ) 
 Here is how much of TeX's memory you used:
- 35339 strings out of 475691
- 746266 string characters out of 5779901
+ 35428 strings out of 475691
+ 748959 string characters out of 5779901
  1939753 words of memory out of 5000000
- 57383 multiletter control sequences out of 15000+600000
- 612311 words of font info for 119 fonts, out of 8000000 for 9000
+ 57469 multiletter control sequences out of 15000+600000
+ 612956 words of font info for 121 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  105i,16n,126p,6639b,1018s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.dvi (36 pages, 126120 bytes).
+Output written on out/main.dvi (38 pages, 139516 bytes).

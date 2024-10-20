@@ -30,8 +30,8 @@
 
 \section{前提}
 \begin{frame}
-  \frametitle{量子アニーリングは組合せ最適化問題を解く手段の一つ}
-  よく扱われる問題の例：\\
+  \frametitle{量子アニーリングは組合せ最適化問題を解く手段の一つ\cite{Kadowaki_1998}\cite{大関真之2018量子アニーリングによる組合せ最適化}}
+  よく扱われる問題の例\cite{lucas2014ising}：\\
   \vspace{10mm}
   \begin{columns}
     \begin{column}{0.45\textwidth}
@@ -90,7 +90,8 @@
   なぜなら...\\
   \begin{itemize}
     \item 制約がペナルティ項として目的関数につけられてしまう
-    \item すると問題が非本質な方向へ最適化される
+    \item すると問題が非本質な方向へ最適化される\cite{Okada_2019}
+    \item ビット間相互作用の複雑化してしまう\cite{boothby2019d}
   \end{itemize}
 
   \vspace{5mm}
@@ -258,8 +259,9 @@
     \end{column}
     \begin{column}{0.4\linewidth}
       \begin{enumerate}
-        \item $S_i$を$1\leq i \leq 4$で一つ選ぶ
-        \item 
+        \item 2列$\left(S_i(1\leq i \leq 4)\right)$選ぶ
+        \item 1を含む行を2行選ぶ
+        \item 選んだ列・行の交点の4ビットをフリップ
         \item 状態遷移完了
       \end{enumerate}
     \end{column}
@@ -268,20 +270,36 @@
 
 \section{比較}
 \begin{frame}
-  \frametitle{比較}
+  \frametitle{比較：n-coloring}
   \begin{figure}
     \begin{columns}
       \begin{column}{0.47\linewidth}
         \includegraphics[width=1\linewidth]{data/GC_ene.png}
-        \caption{Swap basedのQAS (lowest = 0)}        
+        \caption{Swap basedのQAS}        
       \end{column}
       \begin{column}{0.47\linewidth}
         \includegraphics[width=1\linewidth]{data/GC_onehot_ene.png}
-        \caption{普通のQAS (lowest = 2630)}
+        \caption{普通のQAS}
       \end{column}
     \end{columns}
   \end{figure}
   ※縦軸の目盛りが異なることに注意
+\end{frame}
+
+\begin{frame}
+  \frametitle{比較：TSP}
+  \begin{figure}
+    \begin{columns}
+      \begin{column}{0.47\linewidth}
+        \includegraphics[width=1\linewidth]{data/TSP_graph.png}
+        \caption{Swap basedのQAS (energy = 502.79)}        
+      \end{column}
+      \begin{column}{0.47\linewidth}
+        \includegraphics[width=1\linewidth]{data/TSP_broken.png}
+        \caption{普通のQAS (energy = 32641.66)}
+      \end{column}
+    \end{columns}
+  \end{figure}
 \end{frame}
 
 \section{手法（再）}
@@ -358,11 +376,16 @@
   \end{itemize}
 \end{frame}
 
-\begin{frame}[t]{参考文献}
-  \footnotesize
-
-  \bibliographystyle{junsrt}
+\begin{frame}[allowframebreaks]{参考文献}
+  \nocite{nishimori_ohzeki_quantum_annealing_basics}
+  \nocite{hen2016driver}
+  \nocite{hen2016quantum}
+  \nocite{Morita_2008}
+  \nocite{Openjij}
+  \nocite{村田幸弘2007ペナルティ法による目的関数生成における重み付け自動化}
+  \bibliographystyle{unsrt}
   \bibliography{bibliography.bib}
+
 \end{frame}
 
 

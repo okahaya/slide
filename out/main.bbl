@@ -1,3 +1,59 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{lucas2014ising}
+Andrew Lucas.
+\newblock Ising formulations of many np problems.
+\newblock {\em Frontiers in physics}, 2:5, 2014.
+
+\bibitem{Kadowaki_1998}
+Tadashi Kadowaki and Hidetoshi Nishimori.
+\newblock Quantum annealing in the transverse ising model.
+\newblock {\em Physical Review E}, 58(5):5355^^e2^^80^^935363, November 1998.
+
+\bibitem{大関真之2018量子アニーリングによる組合せ最適化}
+大関真之.
+\newblock 量子アニーリングによる組合せ最適化.
+\newblock {\em オペレーションズ・リサーチ}, 63:326--334, 2018.
+
+\bibitem{Okada_2019}
+Shuntaro Okada, Masayuki Ohzeki, and Shinichiro Taguchi.
+\newblock Efficient partition of integer optimization problems with one-hot encoding.
+\newblock {\em Scientific Reports}, 9(1), September 2019.
+
+\bibitem{boothby2019d}
+Kelly Boothby, Paul Bunyk, Jack Raymond, and Aidan Roy.
+\newblock D-wave 量子プロセッサの次世代トポロジー.
+\newblock 2019.
+
+\bibitem{nishimori_ohzeki_quantum_annealing_basics}
+大関~真之 西森~秀稔.
+\newblock {\em 量子アニーリングの基礎}, volume~18 of {\em 基本法則から読み解く物理学最前線}.
+\newblock 共立出版, 東京, 2018.
+\newblock Elements of Quantum Annealing.
+
+\bibitem{hen2016driver}
+Itay Hen and Marcelo~S Sarandy.
+\newblock Driver hamiltonians for constrained optimization in quantum annealing.
+\newblock {\em Physical Review A}, 93(6):062312, 2016.
+
+\bibitem{hen2016quantum}
+Itay Hen and Federico~M Spedalieri.
+\newblock Quantum annealing for constrained optimization.
+\newblock {\em Physical Review Applied}, 5(3):034007, 2016.
+
+\bibitem{Morita_2008}
+Satoshi Morita and Hidetoshi Nishimori.
+\newblock Mathematical foundation of quantum annealing.
+\newblock {\em Journal of Mathematical Physics}, 49(12), December 2008.
+
+\bibitem{Openjij}
+Openjij.
+\newblock https://www.openjij.org.
+\newblock 参照(2024/02/17).
+
+\bibitem{村田幸弘2007ペナルティ法による目的関数生成における重み付け自動化}
+村田幸弘, 安藤竜弥, 阿部充志, et~al.
+\newblock ペナルティ法による目的関数生成における重み付け自動化.
+\newblock {\em 情報処理学会論文誌数理モデル化と応用 (TOM)}, 48(SIG19 (TOM19)):99--106, 2007.
 
 \end{thebibliography}
