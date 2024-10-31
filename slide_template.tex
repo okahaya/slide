@@ -18,14 +18,27 @@
 \section{自己紹介}
 \begin{frame}
   \frametitle{どうもこんにちは}
-  \begin{itemize}
-      \item 名前：岡田颯斗（高校3年生）
-      \item 趣味・興味：
+  \begin{columns}
+    \begin{column}{0.5\linewidth}
       \begin{itemize}
-          \item 競技数学
-          \item 量子コンピュータ
-      \end{itemize}
-  \end{itemize}
+        \item 名前：岡田颯斗（高校3年生）
+        \item 好きなモノ
+        \begin{itemize}
+            \item 競技数学
+            \item ナン
+        \end{itemize}
+        \item 興味があるコト
+        \begin{itemize}
+          \item 量子コンピューター
+        \end{itemize}
+    \end{itemize}
+    \end{column}
+    \begin{column}{0.5\linewidth}
+      \begin{figure}
+        \includegraphics[width=0.7\linewidth]{data/nan}
+      \end{figure}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 \section{前提}
@@ -53,8 +66,6 @@
 
 \begin{frame}
   \frametitle{n-彩色問題}
-  %4×4のほう
-  n-彩色問題：リンク\\
 \end{frame}
 
 
@@ -80,7 +91,8 @@
     \end{column}
   \end{columns}
   \vspace{10mm}
-  \pause{\color{important_font}しかし、量子アニーリングは最適化問題を効率よく解けるかというと...}
+  % \pause{\color{important_font}しかし、量子アニーリングは最適化問題を効率よく解けるかというと...}
+  {\color{important_font}しかし、量子アニーリングはどんな組合せ最適化問題も効率よく解けるかというと...}
 \end{frame}
 
 \section{背景}
@@ -170,12 +182,12 @@
   {\Large   量子アニーリングは組合せ最適化問題を解く手段の一つ}
   \vspace{5mm}
 
-  \begin{columns}
+  \begin{columns}[t]
     \begin{column}{0.45\textwidth}
       \textbf{n-彩色問題}
       \begin{itemize}
           \item 隣り合う場所は異なる色で塗分ける
-          {\pause \item {\color{important_font}各地点はちょうど一色で塗られる}}
+          \item<2-5> {\color{important_font}各地点はちょうど一色で塗られる}
       \end{itemize}
     \end{column}
 
@@ -183,19 +195,21 @@
       \textbf{巡回セールスマン問題}
       \begin{itemize}
           \item 複数の街を最短経路ですべて訪れる
-          {\pause \item {\color{important_font}各時間に訪れることのできるサイトはちょうど1か所}}
-          {\pause \item {\color{important_font}各地点ちょうど1回訪れる}}
+          \item<3-5>{\color{important_font}各時間に訪れることのできるサイトはちょうど1か所}
+          \item<4,5>{\color{important_font}各地点ちょうど1回訪れる}
       \end{itemize}
     \end{column}
   \end{columns}
   \vspace{5mm}
-  \pause{これらの制約を常に満たすように解を遷移させていけば効率が上がりそう}
+  \uncover<5>{これらの制約を常に満たすように解を遷移させていけば効率が上がりそう}
 \end{frame}
 
 \section{やってみた}
 \begin{frame}
   \frametitle{n-彩色問題}
-  エネルギーが下がっていく様子を付けた20×20のn-彩色問題の動画
+\end{frame}
+\begin{frame}
+  \frametitle{巡回セールスマン問題}
 \end{frame}
 
 \section{手法}
@@ -268,48 +282,56 @@
   \end{columns}
 \end{frame}
 
-\section{比較}
-\begin{frame}
-  \frametitle{比較：n-coloring}
-  \begin{figure}
-    \begin{columns}
-      \begin{column}{0.47\linewidth}
-        \includegraphics[width=1\linewidth]{data/GC_ene.png}
-        \caption{Swap basedのQAS}        
-      \end{column}
-      \begin{column}{0.47\linewidth}
-        \includegraphics[width=1\linewidth]{data/GC_onehot_ene.png}
-        \caption{普通のQAS}
-      \end{column}
-    \end{columns}
-  \end{figure}
-  ※縦軸の目盛りが異なることに注意
-\end{frame}
+% \section{比較}
+% \begin{frame}
+%   \frametitle{比較：n-彩色問題}
+%   \begin{figure}
+%     \begin{columns}
+%       \begin{column}{0.47\linewidth}
+%         \includegraphics[width=1\linewidth]{data/GC_ene.png}
+%         \caption{Swap basedのQAS}        
+%       \end{column}
+%       \begin{column}{0.47\linewidth}
+%         \includegraphics[width=1\linewidth]{data/GC_onehot_ene.png}
+%         \caption{普通のQAS}
+%       \end{column}
+%     \end{columns}
+%   \end{figure}
+%   ※縦軸の目盛りが異なることに注意
+% \end{frame}
 
-\begin{frame}
-  \frametitle{比較：TSP}
-  \begin{figure}
-    \begin{columns}
-      \begin{column}{0.47\linewidth}
-        \includegraphics[width=1\linewidth]{data/TSP_graph.png}
-        \caption{Swap basedのQAS (energy = 502.79)}        
-      \end{column}
-      \begin{column}{0.47\linewidth}
-        \includegraphics[width=1\linewidth]{data/TSP_broken.png}
-        \caption{普通のQAS (energy = 32641.66)}
-      \end{column}
-    \end{columns}
-  \end{figure}
-\end{frame}
+% \begin{frame}
+%   \frametitle{比較：巡回セールスマン}
+%   \begin{figure}
+%     \begin{columns}
+%       \begin{column}{0.47\linewidth}
+%         \includegraphics[width=1\linewidth]{data/TSP_graph.png}
+%         \caption{Swap basedのQAS (energy = 502.79)}        
+%       \end{column}
+%       \begin{column}{0.47\linewidth}
+%         \includegraphics[width=1\linewidth]{data/TSP_broken.png}
+%         \caption{普通のQAS (energy = 32641.66)}
+%       \end{column}
+%     \end{columns}
+%   \end{figure}
+% \end{frame}
 
-\section{手法（再）}
+% \section{手法（再）}
 \begin{frame}
-  \frametitle{一般化をする}
+  \frametitle{グラフで表現する}
   \begin{figure}
     \includegraphics[width=0.8\linewidth]{data/bit_to_graph.png}
   \end{figure}
   \centering
   $S_i\cap S_j = q_k \rightarrow V_i \text{と} V_j \text{間に重み}q_k\text{のエッジが存在}$
+\end{frame}
+
+\begin{frame}
+  \frametitle{n-彩色問題再論}
+  \begin{figure}
+      \includegraphics[width=0.85\linewidth]{data/kanzen1ji_to_graph}
+  \end{figure}
+
 \end{frame}
 
 \begin{frame}

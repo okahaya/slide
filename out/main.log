@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  20 OCT 2024 10:05
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.6.28)  31 OCT 2024 19:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1026,10 +1026,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [3
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 29.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 42.
 (c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
+File: data/nan.jpg Graphic file (type bmp)
+<data/nan.jpg>
+
 
 [4
 
@@ -1039,9 +1042,9 @@ File: ts1cmss.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 
 ]
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 52.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 52.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 65.
 
 
 [6
@@ -1068,20 +1071,20 @@ LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <12> not available
 
 ]
 
-[12
-
-]
-
-LaTeX Font Warning: Command \large invalid in math mode on input line 165.
+LaTeX Font Warning: Command \large invalid in math mode on input line 177.
 
 
-LaTeX Font Warning: Command \large invalid in math mode on input line 165.
+LaTeX Font Warning: Command \large invalid in math mode on input line 177.
 
 
-Overfull \vbox (10.71033pt too high) detected at line 165
+Overfull \vbox (10.71033pt too high) detected at line 177
  []
 
 
+
+[12
+
+]
 
 [13
 
@@ -1150,29 +1153,24 @@ File: data/kanzen2ji_bitflip.png Graphic file (type bmp)
 [25
 
 ]
+File: data/bit_to_graph.png Graphic file (type bmp)
+<data/bit_to_graph.png>
+
 
 [26
 
 ]
-File: data/GC_ene.png Graphic file (type bmp)
-<data/GC_ene.png>
-LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 287.
-LaTeX Font Info:    Font shape `JY1/gt/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 287.
-File: data/GC_onehot_ene.png Graphic file (type bmp)
-<data/GC_onehot_ene.png>
+File: data/kanzen1ji_to_graph.png Graphic file (type bmp)
+<data/kanzen1ji_to_graph.png>
 
 
 [27
 
 ]
-File: data/TSP_graph.png Graphic file (type bmp)
-<data/TSP_graph.png>
-File: data/TSP_broken.png Graphic file (type bmp)
-<data/TSP_broken.png>
+File: data/kanzen2ji_to_graph.png Graphic file (type bmp)
+<data/kanzen2ji_to_graph.png>
 
-Overfull \vbox (32.86038pt too high) detected at line 303
+Overfull \vbox (7.25972pt too high) detected at line 345
  []
 
 
@@ -1180,33 +1178,11 @@ Overfull \vbox (32.86038pt too high) detected at line 303
 [28
 
 ]
-
-[29
-
-]
-File: data/bit_to_graph.png Graphic file (type bmp)
-<data/bit_to_graph.png>
-
-
-[30
-
-]
-File: data/kanzen2ji_to_graph.png Graphic file (type bmp)
-<data/kanzen2ji_to_graph.png>
-
-Overfull \vbox (7.25972pt too high) detected at line 323
- []
-
-
-
-[31
-
-]
 File: data/2ji_to_graph.png Graphic file (type bmp)
 <data/2ji_to_graph.png>
 
 
-[32
+[29
 
 ]
 File: data/kanzen2ji_path.png Graphic file (type bmp)
@@ -1215,22 +1191,22 @@ File: data/2ji_path.png Graphic file (type bmp)
 <data/2ji_path.png>
 
 
-[33
+[30
 
 ]
 File: data/kanzen2ji_path.png Graphic file (type bmp)
 <data/kanzen2ji_path.png>
 
 
-[34
+[31
 
 ]
 
-[35
+[32
 
 ]
 
-[36
+[33
 
 ] (out/main.bbl
 LaTeX Font Info:    Font shape `JT1/gt/bx/n' in size <6> not available
@@ -1263,11 +1239,11 @@ LaTeX Font Info:    Kanji font shape `JY1/gt/m/it' undefined
 (Font)              No change on input line 57.
 )
 
-[37
+[34
 
 ]
 
-[38
+[35
 
 
 ])
@@ -1294,15 +1270,15 @@ L3 programming layer <2024-05-27>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C1A45B21D45213EFA164FCC753313103;672.
+(rerunfilecheck)             Checksum: D246CD60ABD6CDD7B075B32EBE3F03C6;530.
  ) 
 Here is how much of TeX's memory you used:
- 35428 strings out of 475691
- 748959 string characters out of 5779901
- 1939753 words of memory out of 5000000
- 57469 multiletter control sequences out of 15000+600000
- 612956 words of font info for 121 fonts, out of 8000000 for 9000
+ 35407 strings out of 475691
+ 748627 string characters out of 5779901
+ 1938753 words of memory out of 5000000
+ 57449 multiletter control sequences out of 15000+600000
+ 612662 words of font info for 120 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 105i,16n,126p,6639b,1018s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,16n,126p,6639b,925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/main.dvi (38 pages, 139516 bytes).
+Output written on out/main.dvi (35 pages, 127988 bytes).

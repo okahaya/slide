@@ -523,6 +523,9 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmss.fd
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmss.fd
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1200.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcss1095.tfm
+INPUT ./data/nan.jpg
+INPUT ./data/nan.jpg
+INPUT extractbb -B cropbox -O data/nan.jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth9.tfm
@@ -558,27 +561,13 @@ INPUT extractbb -B cropbox -O data/TSP_example_graph.png
 INPUT ./data/kanzen2ji_bitflip.png
 INPUT ./data/kanzen2ji_bitflip.png
 INPUT extractbb -B cropbox -O data/kanzen2ji_bitflip.png
-INPUT ./data/GC_ene.png
-INPUT ./data/GC_ene.png
-INPUT ./data/GC_ene.png
-INPUT extractbb -B cropbox -O data/GC_ene.png
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT ./data/GC_onehot_ene.png
-INPUT ./data/GC_onehot_ene.png
-INPUT ./data/GC_onehot_ene.png
-INPUT extractbb -B cropbox -O data/GC_onehot_ene.png
-INPUT ./data/TSP_graph.png
-INPUT ./data/TSP_graph.png
-INPUT ./data/TSP_graph.png
-INPUT extractbb -B cropbox -O data/TSP_graph.png
-INPUT ./data/TSP_broken.png
-INPUT ./data/TSP_broken.png
-INPUT ./data/TSP_broken.png
-INPUT extractbb -B cropbox -O data/TSP_broken.png
 INPUT ./data/bit_to_graph.png
 INPUT ./data/bit_to_graph.png
 INPUT ./data/bit_to_graph.png
 INPUT extractbb -B cropbox -O data/bit_to_graph.png
+INPUT ./data/kanzen1ji_to_graph.png
+INPUT ./data/kanzen1ji_to_graph.png
+INPUT extractbb -B cropbox -O data/kanzen1ji_to_graph.png
 INPUT ./data/kanzen2ji_to_graph.png
 INPUT ./data/kanzen2ji_to_graph.png
 INPUT extractbb -B cropbox -O data/kanzen2ji_to_graph.png
